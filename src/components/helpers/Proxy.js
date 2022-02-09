@@ -1,0 +1,1 @@
+export const proxy = 'http://200.57.183.166:8280'

@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import 'remixicon/fonts/remixicon.css'
+import { Navigate, Route, Routes } from 'react-router-dom'
+import Home from './components/home/home';
+import Navbar from './components/helpers/Navbar';
+import Formulario from './components/campos/Formulario';
+import Cotizador from './components/cotizador/cotizador';
+
+
+const App = () => {
+
+
+	return (
+		<Routes>
+			<Route
+				path="/"
+				element={<Navigate to="/home" />}
+			/>
+			<Route path="/home" element={
+				<>
+					<Navbar />
+					<Home />
+				</>
+			} />
+			<Route path="/formulario" element={
+				<>
+					<Navbar phone={false} />
+					<Formulario />
+				</>
+			} />
+			<Route path="/cotizador" element={
+				<>
+					<Navbar phone={true} />
+					<Cotizador />
+				</>
+			} />
+		</Routes>
+	);
 }
 
 export default App;

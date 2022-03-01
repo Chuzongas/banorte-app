@@ -81,7 +81,7 @@ const Home = () => {
 
 						<div className='bgc-gray-light' style={{ margin: '64px auto 0px auto', maxWidth: '800px' }}>
 							<div style={{ padding: '24px', textAlign: 'center' }} className="bgc-gray-2 white">
-								<h3>Simula tu crédito empresarial en menos de 60'</h3>
+								<h3 id="simula">Simula tu crédito empresarial en menos de 60'</h3>
 								<p>Podrás solicitar el crédito Pyme que se adecúe a las necesidades de tu empresa.</p>
 							</div>
 							<div style={{ padding: '24px' }}>
@@ -92,11 +92,12 @@ const Home = () => {
 									</div>
 									<div className="col-12 col-md-6">
 										<div style={{ display: 'flex', marginBottom: '16px' }}>
-											<div className='border-gray bgc-white' style={{ borderRight: '0px', display: 'grid', placeContent: 'center' }}>
+
+											<div className='bgc-white' style={{ border: '1px solid var(--gray-color-2)', borderRight: '0px', display: 'grid', placeContent: 'center', height: '50px' }}>
 												<i className="ri-money-dollar-circle-line color-gray-2" style={{ fontSize: '32px', margin: '0px 4px' }}></i>
 											</div>
-											<input type="text" onChange={handleCotizadorInputValue} value={cotizadorInput} className='big-input color-red' style={{ borderRight: '0px', fontWeight: 'bold', width: '100%' }} />
-											<div className='border-gray bgc-white' style={{ borderLeft: '0px', display: 'grid', placeContent: 'center', padding: '0px 8px' }}>
+											<input onChange={handleCotizadorInputValue} value={cotizadorInput} type="text" className='big-input color-red' style={{ borderRight: '0px', fontWeight: 'bold', width: '100%', height: '50px' }} />
+											<div className='bgc-white' style={{ border: '1px solid var(--gray-color-2)', display: 'grid', placeContent: 'center', padding: '0px 8px', height: '50px' }}>
 												<p style={{ marginBottom: '0px' }}>MXN</p>
 											</div>
 										</div>
@@ -135,7 +136,7 @@ const Home = () => {
 
 						<div style={{ marginTop: '64px' }}>
 							<div className="container" style={{ textAlign: 'center' }}>
-								<h2 className='color-red'>Te apoyamos para construir un mejor futuro</h2>
+								<h2 id="planes" className='color-red'>Te apoyamos para construir un mejor futuro</h2>
 								<h5>Impulsamos tus proyectos para lograr éxito en tu negocio</h5>
 							</div>
 						</div>
@@ -274,7 +275,7 @@ const Home = () => {
 				</section>
 				<section className='hompage-section-three' style={{ marginTop: '64px' }}>
 					<div className="container">
-						<h1 className='color-red' style={{ textAlign: 'center', marginBottom: '0px' }}>Obtén tu crédito en 3 pasos sencillos</h1>
+						<h1 id="pasos" className='color-red' style={{ textAlign: 'center', marginBottom: '0px' }}>Obtén tu crédito en 3 pasos sencillos</h1>
 						<p style={{ textAlign: 'center' }}>Impulsamos tus proyectos para lograr éxito en tu negocio</p>
 					</div>
 					<div className='hompage-section-three-img' style={{ marginTop: '32px', display: 'flex', justifyContent: 'space-evenly', alignItems: 'center', flexFlow: 'column' }}>
@@ -344,7 +345,7 @@ const Home = () => {
 				</section>
 				<section>
 					<div className="container" style={{ padding: '64px 0px' }}>
-						<h2 className='text-center color-red' style={{ marginBottom: '0px' }}>Preguntas frecuentes</h2>
+						<h2 id="faq" className='text-center color-red' style={{ marginBottom: '0px' }}>Preguntas frecuentes</h2>
 						<p className='text-center'>Impulsamos tus proyectos para lograr éxito en tu negocio</p>
 
 						<div style={{ maxWidth: '1000px', margin: '32px auto 0px auto' }}>

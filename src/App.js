@@ -31,7 +31,7 @@ const App = () => {
 			} />
 			<Route path="/cotizador" element={
 				<>
-					<Navbar phone={true} />
+					<Navbar phone={false} />
 					<Cotizador />
 				</>
 			} />

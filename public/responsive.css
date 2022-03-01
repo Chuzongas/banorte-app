@@ -45,8 +45,8 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     .cards-section {
         flex-wrap: wrap !important;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: auto !important;
+        margin-right: auto !important;
         width: 75%;
     }
     .cards-section>div:nth-child(-n + 2) {

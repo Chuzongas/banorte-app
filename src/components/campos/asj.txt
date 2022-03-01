@@ -1,0 +1,1549 @@
+ ------------HOME-----------
+-----------PFAE---------------
+
+PFAEGENERALESNombre
+PFAEGENERALESApellidoPaterno
+PFAEGENERALESApellidoMaterno
+PFAEGENERALESFechadenacimiento
+PFAEGENERALESPaisdenacimiento
+PFAEGENERALESEstadodeNacimiento
+PFAEGENERALESGenero
+PFAEGENERALESRFC
+PFAEGENERALESCURP
+PFAEGENERALESFolioID
+PFAEGENERALESNacionalidad
+PFAEGENERALESCorreoelectronico
+PFAEGENERALESTelefono
+PFAEGENERALESCelular
+PFAEGENERALESEstadoCivil
+PFAEGENERALESMenoresde23anosquedependen
+PFAEGENERALESTotaldedependientes
+PFAEGENERALESNivelacademico
+PFAEGENERALESRelacionadoramajudicialGobiernoLegislativa
+PFAEGENERALESTienemasdeunpaisderesidencia
+PFAEGENERALESTieneoadquiriolaresidenciadelosEUA
+
+PFAEDOMICILIOCalle
+PFAEDOMICILIONumeroExterior
+PFAEDOMICILIONumeroInterior
+PFAEDOMICILIOPiso
+PFAEDOMICILIOPais
+PFAEDOMICILIOCP
+PFAEDOMICILIOColonia
+PFAEDOMICILIODelegacionMunicipio
+PFAEDOMICILIOEstado
+PFAEDOMICILIOTipodeDomicilio
+PFAEDOMICILIOTipodevivienda
+PFAEDOMICILIOAntiguedadeneldomicilioactual
+PFAEDOMICILIOImportedelarenta
+PFAEDOMICILIOAntiguedadeneldomicilioanterior
+PFAEDOMICILIOEntrecalle1
+PFAEDOMICILIOEntrecalle2
+
+PFAEDOMICILIOFISCALCalle
+PFAEDOMICILIOFISCALNumeroExterior
+PFAEDOMICILIOFISCALNumeroInterior
+PFAEDOMICILIOFISCALCP
+PFAEDOMICILIOFISCALColonia
+PFAEDOMICILIOFISCALDelegacionMunicipio
+PFAEDOMICILIOFISCALEstado
+PFAEDOMICILIOFISCALSector
+PFAEDOMICILIOFISCALGiro
+PFAEDOMICILIOFISCALActividad
+PFAEDOMICILIOFISCALFechaaltadeSHCP
+PFAEDOMICILIOFISCALAnosdeexperienciaenelsector
+PFAEDOMICILIOFISCALImportarExportar
+PFAEDOMICILIOFISCALTotaldeempleados
+PFAEDOMICILIOFISCALNumerodesucursales
+PFAEDOMICILIOFISCALTipodelocal
+PFAEDOMICILIOFISCALAnosqueloharentado
+PFAEDOMICILIOFISCALImporteRentaMensual
+PFAEDOMICILIOFISCALAntiguedaddesuactividad
+PFAEDOMICILIOFISCALTotaldenominamensual
+
+PFAEDOMICILIOCOMERCIALCalle
+PFAEDOMICILIOCOMERCIALNumeroExterior
+PFAEDOMICILIOCOMERCIALNumeroInterior
+PFAEDOMICILIOCOMERCIALCP
+PFAEDOMICILIOCOMERCIALColonia
+PFAEDOMICILIOCOMERCIALDelegacionMunicipio
+PFAEDOMICILIOCOMERCIALEstado
+PFAEDOMICILIOCOMERCIALTiempoderesidencia
+
+PFAEECONOMICOSVentasanuales
+PFAEECONOMICOSTipodecomprobantedeingresos
+PFAEECONOMICOSFuentedeingresos
+
+-------------------------PM---------------------------
+
+PMGENERALESRazonsocial
+PMGENERALESRFC
+PMGENERALESNumerodeescritura
+PMGENERALESFechadealtaenSHCP
+PMGENERALESDuraciondelasociedad
+PMGENERALESFoliomercantil
+PMREPRESENTANTELEGALNombrecompleto
+PMREPRESENTANTELEGALCargo
+PMREPRESENTANTELEGALTelefono
+PMCONTACTOEMPRESANombrecompleto
+PMCONTACTOEMPRESACargo
+PMCONTACTOEMPRESATelefono
+PMDOMICILIONEGOCIOCalle
+PMDOMICILIONEGOCIONumeroexterior
+PMDOMICILIONEGOCIONumerointerior
+PMDOMICILIONEGOCIOPiso
+PMDOMICILIONEGOCIOPais
+PMDOMICILIONEGOCIOCP
+PMDOMICILIONEGOCIOColonia
+PMDOMICILIONEGOCIODelegacionMunicipio
+PMDOMICILIONEGOCIOEstado
+PMDOMICILIONEGOCIOTipodevivienda
+PMINFORMACIONNEGOCIOImportarexportar
+PMINFORMACIONNEGOCIOSector
+PMINFORMACIONNEGOCIOGiro
+PMINFORMACIONNEGOCIOActividad
+PMINFORMACIONNEGOCIOAnosdeexperienciaenelsector
+PMINFORMACIONNEGOCIOAnosdeantiguedadensuactividad
+PMINFORMACIONNEGOCIOTotaldeempleados
+PMINFORMACIONNEGOCIONumerodesucursales
+PMINFORMACIONNEGOCIOTipodelocal
+PMINFORMACIONNEGOCIOAnosqueloharentado
+PMINFORMACIONNEGOCIOImporteRentaMensual
+PMINFORMACIONNEGOCIOTotaldenominamensual
+PMECONOMICOSVentasanuales
+PMECONOMICOSTipodecomprobantedeingresos
+PMECONOMICOSFuentedeingresos
+
+----------------------SOCIOS-PRINCIPALES
+SP1Nombrerazonsocial
+SP1Accionario
+SP1RFC
+SP1Puestoenlaempresa
+SP2Nombrerazonsocial
+SP2Accionario
+SP2RFC
+SP2Puestoenlaempresa
+SP3Nombrerazonsocial
+SP3Accionario
+SP3RFC
+SP3Puestoenlaempresa
+SP4Nombrerazonsocial
+SP4Accionario
+SP4RFC
+SP4Puestoenlaempresa
+SP5Nombrerazonsocial
+SP5Accionario
+SP5RFC
+SP5Puestoenlaempresa
+
+-----------------------------PRINCIPAL-ACCIONISTA
+PRINCIPALACCIONISTANombre
+PRINCIPALACCIONISTAApellidoPaterno
+PRINCIPALACCIONISTAApellidoMaterno
+PRINCIPALACCIONISTAFechadenacimiento
+PRINCIPALACCIONISTAPaisdenacimiento
+PRINCIPALACCIONISTAEstadodeNacimiento
+PRINCIPALACCIONISTAGenero
+PRINCIPALACCIONISTARFC
+PRINCIPALACCIONISTACURP
+PRINCIPALACCIONISTAFolioID
+PRINCIPALACCIONISTANacionalidad
+PRINCIPALACCIONISTACalidadmigratoria
+PRINCIPALACCIONISTACorreoelectronico
+PRINCIPALACCIONISTATelefono
+PRINCIPALACCIONISTACelular
+PRINCIPALACCIONISTAEstadocivil
+PRINCIPALACCIONISTAMenoresde23anosquedependen
+PRINCIPALACCIONISTATotaldedependientes
+PRINCIPALACCIONISTANivelacademico
+PRINCIPALACCIONISTARelacionadoramajudicialGobiernoLegislativa
+PRINCIPALACCIONISTATienemasdeunpaisderesidenciafiscal
+PRINCIPALACCIONISTATieneoadquiriolaresidenciadelosEUA
+PRINCIPALACCIONISTAElobligadoesaccionistauobligadodeotraempresa
+PRINCIPALACCIONISTAEsobligadoofiadordeotraempresaoPFAE
+PRINCIPALACCIONISTATotaldenominamensual
+PRINCIPALACCIONISTAFuentedeingresos
+PRINCIPALACCIONISTAInformaciondedomicilio
+PRINCIPALACCIONISTACalle
+PRINCIPALACCIONISTANumerointerior
+PRINCIPALACCIONISTANumeroexterior
+PRINCIPALACCIONISTAPiso
+PRINCIPALACCIONISTAPais
+PRINCIPALACCIONISTACP
+PRINCIPALACCIONISTAColonia
+PRINCIPALACCIONISTADelegacionMunicipio
+PRINCIPALACCIONISTAEstado
+PRINCIPALACCIONISTATipodeDomicilio
+PRINCIPALACCIONISTATipodevivienda
+PRINCIPALACCIONISTAAntiguedadeneldomicilioactual
+PRINCIPALACCIONISTAAntiguedadeneldomicilioanterior
+PRINCIPALACCIONISTAEntrecalle1
+PRINCIPALACCIONISTAEntrecalle2
+
+
+------------------OBLIGADO-SOLIDARIOS----------------
+
+-----------1------------------
+-----------PF-----------------
+OS1PFNombre
+OS1PFApellidoPaterno
+OS1PFApellidoMaterno
+OS1PFFechadenacimiento
+OS1PFPaisdenacimiento
+OS1PFEstadodeNacimiento
+OS1PFGenero
+OS1PFRFC
+OS1PFCURP
+OS1PFFolioID
+OS1PFNacionalidad
+OS1PFCalidadmigratoria
+OS1PFCorreoelectronico
+OS1PFTelefono
+OS1PFCelular
+OS1PFMenoresde23anosquedependen
+OS1PFTotaldedependientes
+OS1PFRelacionconelsolicitante
+OS1PFRelacionadoramajudicialGobiernoLegislativa
+OS1PFTienemasdeunpaisderesidencia
+OS1PFTieneoadquiriolaresidenciadelosEUA
+OS1PFElobligadoesaccionistauobligadodeotraempresa
+OS1PFEsobligadoofiadordeotraempresaoPFAE
+OS1PFNumeroInterior
+OS1PFPiso
+OS1PFPais
+OS1PFCP
+OS1PFColonia
+OS1PFDelegacionMunicipio
+OS1PFEstado
+OS1PFTipodeDomicilio
+OS1PFTipodevivienda
+OS1PFAntiguedadeneldomicilioactual
+OS1PFAntiguedadeneldomicilioanterior
+OS1PFEntrecalle1
+OS1PFEntrecalle2
+
+------------------PFAE---------------------
+OS1PFAENombre
+OS1PFAEApellidoPaterno
+OS1PFAEApellidoMaterno
+OS1PFAEFechadenacimiento
+OS1PFAEPaisdenacimiento
+OS1PFAEEstadodeNacimiento
+OS1PFAEGenero
+OS1PFAERFC
+OS1PFAECURP
+OS1PFAEFolioID
+OS1PFAENacionalidad
+OS1PFAECalidadmigratoria
+OS1PFAECorreoelectronico
+OS1PFAETelefono
+OS1PFAECelular
+OS1PFAEMenoresde23anosquedependen
+OS1PFAETotaldedependientes
+OS1PFAERelacionconelsolicitante
+OS1PFAERelacionadoramajudicialGobiernoLegislativa
+OS1PFAETienemasdeunpaisderesidencia
+OS1PFAETieneoadquiriolaresidenciadelosEUA
+OS1PFAEElobligadoesaccionistauobligadodeotraempresa
+OS1PFAEEsobligadoofiadordeotraempresaoPFAE
+OS1PFAENumeroInterior
+OS1PFAEPiso
+OS1PFAEPais
+OS1PFAECP
+OS1PFAEColonia
+OS1PFAEDelegacionMunicipio
+OS1PFAEEstado
+OS1PFAETipodeDomicilio
+OS1PFAETipodevivienda
+OS1PFAEAntiguedadeneldomicilioactual
+OS1PFAEAntiguedadeneldomicilioanterior
+OS1PFAEEntrecalle1
+OS1PFAEEntrecalle2
+OS1PFAEImportarexportar
+OS1PFAESector
+OS1PFAEGiro
+OS1PFAEActividad
+OS1PFAEFechadealtaenSHCP
+OS1PFAENumerodesucursales
+OS1PFAEAnosdeexperienciaenelsector
+
+--------------------PM-----------------------
+OS1PMRazonsocial
+OS1PMRFC
+OS1PMCorreoelectronico
+OS1PMFechadealtaenSHCP
+OS1PMRelacionadoramajudicialGobiernoLegislativa
+OS1PMTienemasdeunpaisderesidencia
+OS1PMTieneoadquiriolaresidenciadelosEUA
+OS1PMElobligadoesaccionistauobligadodeotraempresa
+OS1PMEsobligadoofiadordeotraempresaoPFAE
+OS1PMNombrecompleto
+OS1PMCargo
+OS1PMTelefono
+OS1PMCalle
+OS1PMNumeroexterior
+OS1PMNumerointerior
+OS1PMPiso
+OS1PMPais
+OS1PMCP
+OS1PMColonia
+OS1PMDelegacionMunicipio
+OS1PMEstado
+OS1PMTipodeDomicilio
+OS1PMTipodevivienda
+OS1PMEntrecalle1
+OS1PMEntrecalle2
+OS1PMImportarexportar
+OS1PMSector
+OS1PMGiro
+OS1PMActividad
+OS1PMNumerodesucursales
+OS1PMAnosdeexperienciaenelsector
+
+-----------2------------------
+-----------PF-----------------
+OS2PFNombre
+OS2PFApellidoPaterno
+OS2PFApellidoMaterno
+OS2PFFechadenacimiento
+OS2PFPaisdenacimiento
+OS2PFEstadodeNacimiento
+OS2PFGenero
+OS2PFRFC
+OS2PFCURP
+OS2PFFolioID
+OS2PFNacionalidad
+OS2PFCalidadmigratoria
+OS2PFCorreoelectronico
+OS2PFTelefono
+OS2PFCelular
+OS2PFMenoresde23anosquedependen
+OS2PFTotaldedependientes
+OS2PFRelacionconelsolicitante
+OS2PFRelacionadoramajudicialGobiernoLegislativa
+OS2PFTienemasdeunpaisderesidencia
+OS2PFTieneoadquiriolaresidenciadelosEUA
+OS2PFElobligadoesaccionistauobligadodeotraempresa
+OS2PFEsobligadoofiadordeotraempresaoPFAE
+OS2PFNumeroInterior
+OS2PFPiso
+OS2PFPais
+OS2PFCP
+OS2PFColonia
+OS2PFDelegacionMunicipio
+OS2PFEstado
+OS2PFTipodeDomicilio
+OS2PFTipodevivienda
+OS2PFAntiguedadeneldomicilioactual
+OS2PFAntiguedadeneldomicilioanterior
+OS2PFEntrecalle1
+OS2PFEntrecalle2
+OS2PFAENombre
+OS2PFAEApellidoPaterno
+OS2PFAEApellidoMaterno
+OS2PFAEFechadenacimiento
+OS2PFAEPaisdenacimiento
+OS2PFAEEstadodeNacimiento
+OS2PFAEGenero
+OS2PFAERFC
+OS2PFAECURP
+OS2PFAEFolioID
+OS2PFAENacionalidad
+OS2PFAECalidadmigratoria
+OS2PFAECorreoelectronico
+OS2PFAETelefono
+OS2PFAECelular
+OS2PFAEMenoresde23anosquedependen
+OS2PFAETotaldedependientes
+OS2PFAERelacionconelsolicitante
+OS2PFAERelacionadoramajudicialGobiernoLegislativa
+OS2PFAETienemasdeunpaisderesidencia
+OS2PFAETieneoadquiriolaresidenciadelosEUA
+OS2PFAEElobligadoesaccionistauobligadodeotraempresa
+OS2PFAEEsobligadoofiadordeotraempresaoPFAE
+OS2PFAENumeroInterior
+OS2PFAEPiso
+OS2PFAEPais
+OS2PFAECP
+OS2PFAEColonia
+OS2PFAEDelegacionMunicipio
+OS2PFAEEstado
+OS2PFAETipodeDomicilio
+OS2PFAETipodevivienda
+OS2PFAEAntiguedadeneldomicilioactual
+OS2PFAEAntiguedadeneldomicilioanterior
+OS2PFAEEntrecalle1
+OS2PFAEEntrecalle2
+OS2PFAEImportarexportar
+OS2PFAESector
+OS2PFAEGiro
+OS2PFAEActividad
+OS2PFAEFechadealtaenSHCP
+OS2PFAENumerodesucursales
+OS2PFAEAnosdeexperienciaenelsector
+OS2PMRazonsocial
+OS2PMRFC
+OS2PMCorreoelectronico
+OS2PMFechadealtaenSHCP
+OS2PMRelacionadoramajudicialGobiernoLegislativa
+OS2PMTienemasdeunpaisderesidencia
+OS2PMTieneoadquiriolaresidenciadelosEUA
+OS2PMElobligadoesaccionistauobligadodeotraempresa
+OS2PMEsobligadoofiadordeotraempresaoPFAE
+OS2PMNombrecompleto
+OS2PMCargo
+OS2PMTelefono
+OS2PMCalle
+OS2PMNumeroexterior
+OS2PMNumerointerior
+OS2PMPiso
+OS2PMPais
+OS2PMCP
+OS2PMColonia
+OS2PMDelegacionMunicipio
+OS2PMEstado
+OS2PMTipodeDomicilio
+OS2PMTipodevivienda
+OS2PMEntrecalle1
+OS2PMEntrecalle2
+OS2PMImportarexportar
+OS2PMSector
+OS2PMGiro
+OS2PMActividad
+OS2PMNumerodesucursales
+OS2PMAnosdeexperienciaenelsector
+
+
+-----------3------------------
+-----------PF-----------------
+OS3PFNombre
+OS3PFApellidoPaterno
+OS3PFApellidoMaterno
+OS3PFFechadenacimiento
+OS3PFPaisdenacimiento
+OS3PFEstadodeNacimiento
+OS3PFGenero
+OS3PFRFC
+OS3PFCURP
+OS3PFFolioID
+OS3PFNacionalidad
+OS3PFCalidadmigratoria
+OS3PFCorreoelectronico
+OS3PFTelefono
+OS3PFCelular
+OS3PFMenoresde23anosquedependen
+OS3PFTotaldedependientes
+OS3PFRelacionconelsolicitante
+OS3PFRelacionadoramajudicialGobiernoLegislativa
+OS3PFTienemasdeunpaisderesidencia
+OS3PFTieneoadquiriolaresidenciadelosEUA
+OS3PFElobligadoesaccionistauobligadodeotraempresa
+OS3PFEsobligadoofiadordeotraempresaoPFAE
+OS3PFNumeroInterior
+OS3PFPiso
+OS3PFPais
+OS3PFCP
+OS3PFColonia
+OS3PFDelegacionMunicipio
+OS3PFEstado
+OS3PFTipodeDomicilio
+OS3PFTipodevivienda
+OS3PFAntiguedadeneldomicilioactual
+OS3PFAntiguedadeneldomicilioanterior
+OS3PFEntrecalle1
+OS3PFEntrecalle2
+OS3PFAENombre
+OS3PFAEApellidoPaterno
+OS3PFAEApellidoMaterno
+OS3PFAEFechadenacimiento
+OS3PFAEPaisdenacimiento
+OS3PFAEEstadodeNacimiento
+OS3PFAEGenero
+OS3PFAERFC
+OS3PFAECURP
+OS3PFAEFolioID
+OS3PFAENacionalidad
+OS3PFAECalidadmigratoria
+OS3PFAECorreoelectronico
+OS3PFAETelefono
+OS3PFAECelular
+OS3PFAEMenoresde23anosquedependen
+OS3PFAETotaldedependientes
+OS3PFAERelacionconelsolicitante
+OS3PFAERelacionadoramajudicialGobiernoLegislativa
+OS3PFAETienemasdeunpaisderesidencia
+OS3PFAETieneoadquiriolaresidenciadelosEUA
+OS3PFAEElobligadoesaccionistauobligadodeotraempresa
+OS3PFAEEsobligadoofiadordeotraempresaoPFAE
+OS3PFAENumeroInterior
+OS3PFAEPiso
+OS3PFAEPais
+OS3PFAECP
+OS3PFAEColonia
+OS3PFAEDelegacionMunicipio
+OS3PFAEEstado
+OS3PFAETipodeDomicilio
+OS3PFAETipodevivienda
+OS3PFAEAntiguedadeneldomicilioactual
+OS3PFAEAntiguedadeneldomicilioanterior
+OS3PFAEEntrecalle1
+OS3PFAEEntrecalle2
+OS3PFAEImportarexportar
+OS3PFAESector
+OS3PFAEGiro
+OS3PFAEActividad
+OS3PFAEFechadealtaenSHCP
+OS3PFAENumerodesucursales
+OS3PFAEAnosdeexperienciaenelsector
+OS3PMRazonsocial
+OS3PMRFC
+OS3PMCorreoelectronico
+OS3PMFechadealtaenSHCP
+OS3PMRelacionadoramajudicialGobiernoLegislativa
+OS3PMTienemasdeunpaisderesidencia
+OS3PMTieneoadquiriolaresidenciadelosEUA
+OS3PMElobligadoesaccionistauobligadodeotraempresa
+OS3PMEsobligadoofiadordeotraempresaoPFAE
+OS3PMNombrecompleto
+OS3PMCargo
+OS3PMTelefono
+OS3PMCalle
+OS3PMNumeroexterior
+OS3PMNumerointerior
+OS3PMPiso
+OS3PMPais
+OS3PMCP
+OS3PMColonia
+OS3PMDelegacionMunicipio
+OS3PMEstado
+OS3PMTipodeDomicilio
+OS3PMTipodevivienda
+OS3PMEntrecalle1
+OS3PMEntrecalle2
+OS3PMImportarexportar
+OS3PMSector
+OS3PMGiro
+OS3PMActividad
+OS3PMNumerodesucursales
+OS3PMAnosdeexperienciaenelsector
+
+
+------------4
+OS4PFNombre
+OS4PFApellidoPaterno
+OS4PFApellidoMaterno
+OS4PFFechadenacimiento
+OS4PFPaisdenacimiento
+OS4PFEstadodeNacimiento
+OS4PFGenero
+OS4PFRFC
+OS4PFCURP
+OS4PFFolioID
+OS4PFNacionalidad
+OS4PFCalidadmigratoria
+OS4PFCorreoelectronico
+OS4PFTelefono
+OS4PFCelular
+OS4PFMenoresde23anosquedependen
+OS4PFTotaldedependientes
+OS4PFRelacionconelsolicitante
+OS4PFRelacionadoramajudicialGobiernoLegislativa
+OS4PFTienemasdeunpaisderesidencia
+OS4PFTieneoadquiriolaresidenciadelosEUA
+OS4PFElobligadoesaccionistauobligadodeotraempresa
+OS4PFEsobligadoofiadordeotraempresaoPFAE
+OS4PFNumeroInterior
+OS4PFPiso
+OS4PFPais
+OS4PFCP
+OS4PFColonia
+OS4PFDelegacionMunicipio
+OS4PFEstado
+OS4PFTipodeDomicilio
+OS4PFTipodevivienda
+OS4PFAntiguedadeneldomicilioactual
+OS4PFAntiguedadeneldomicilioanterior
+OS4PFEntrecalle1
+OS4PFEntrecalle2
+OS4PFAENombre
+OS4PFAEApellidoPaterno
+OS4PFAEApellidoMaterno
+OS4PFAEFechadenacimiento
+OS4PFAEPaisdenacimiento
+OS4PFAEEstadodeNacimiento
+OS4PFAEGenero
+OS4PFAERFC
+OS4PFAECURP
+OS4PFAEFolioID
+OS4PFAENacionalidad
+OS4PFAECalidadmigratoria
+OS4PFAECorreoelectronico
+OS4PFAETelefono
+OS4PFAECelular
+OS4PFAEMenoresde23anosquedependen
+OS4PFAETotaldedependientes
+OS4PFAERelacionconelsolicitante
+OS4PFAERelacionadoramajudicialGobiernoLegislativa
+OS4PFAETienemasdeunpaisderesidencia
+OS4PFAETieneoadquiriolaresidenciadelosEUA
+OS4PFAEElobligadoesaccionistauobligadodeotraempresa
+OS4PFAEEsobligadoofiadordeotraempresaoPFAE
+OS4PFAENumeroInterior
+OS4PFAEPiso
+OS4PFAEPais
+OS4PFAECP
+OS4PFAEColonia
+OS4PFAEDelegacionMunicipio
+OS4PFAEEstado
+OS4PFAETipodeDomicilio
+OS4PFAETipodevivienda
+OS4PFAEAntiguedadeneldomicilioactual
+OS4PFAEAntiguedadeneldomicilioanterior
+OS4PFAEEntrecalle1
+OS4PFAEEntrecalle2
+OS4PFAEImportarexportar
+OS4PFAESector
+OS4PFAEGiro
+OS4PFAEActividad
+OS4PFAEFechadealtaenSHCP
+OS4PFAENumerodesucursales
+OS4PFAEAnosdeexperienciaenelsector
+OS4PMRazonsocial
+OS4PMRFC
+OS4PMCorreoelectronico
+OS4PMFechadealtaenSHCP
+OS4PMRelacionadoramajudicialGobiernoLegislativa
+OS4PMTienemasdeunpaisderesidencia
+OS4PMTieneoadquiriolaresidenciadelosEUA
+OS4PMElobligadoesaccionistauobligadodeotraempresa
+OS4PMEsobligadoofiadordeotraempresaoPFAE
+OS4PMNombrecompleto
+OS4PMCargo
+OS4PMTelefono
+OS4PMCalle
+OS4PMNumeroexterior
+OS4PMNumerointerior
+OS4PMPiso
+OS4PMPais
+OS4PMCP
+OS4PMColonia
+OS4PMDelegacionMunicipio
+OS4PMEstado
+OS4PMTipodeDomicilio
+OS4PMTipodevivienda
+OS4PMEntrecalle1
+OS4PMEntrecalle2
+OS4PMImportarexportar
+OS4PMSector
+OS4PMGiro
+OS4PMActividad
+OS4PMNumerodesucursales
+OS4PMAnosdeexperienciaenelsector
+
+
+-----------5------------------
+-----------PF-----------------
+OS5PFNombre
+OS5PFApellidoPaterno
+OS5PFApellidoMaterno
+OS5PFFechadenacimiento
+OS5PFPaisdenacimiento
+OS5PFEstadodeNacimiento
+OS5PFGenero
+OS5PFRFC
+OS5PFCURP
+OS5PFFolioID
+OS5PFNacionalidad
+OS5PFCalidadmigratoria
+OS5PFCorreoelectronico
+OS5PFTelefono
+OS5PFCelular
+OS5PFMenoresde23anosquedependen
+OS5PFTotaldedependientes
+OS5PFRelacionconelsolicitante
+OS5PFRelacionadoramajudicialGobiernoLegislativa
+OS5PFTienemasdeunpaisderesidencia
+OS5PFTieneoadquiriolaresidenciadelosEUA
+OS5PFElobligadoesaccionistauobligadodeotraempresa
+OS5PFEsobligadoofiadordeotraempresaoPFAE
+OS5PFNumeroInterior
+OS5PFPiso
+OS5PFPais
+OS5PFCP
+OS5PFColonia
+OS5PFDelegacionMunicipio
+OS5PFEstado
+OS5PFTipodeDomicilio
+OS5PFTipodevivienda
+OS5PFAntiguedadeneldomicilioactual
+OS5PFAntiguedadeneldomicilioanterior
+OS5PFEntrecalle1
+OS5PFEntrecalle2
+OS5PFAENombre
+OS5PFAEApellidoPaterno
+OS5PFAEApellidoMaterno
+OS5PFAEFechadenacimiento
+OS5PFAEPaisdenacimiento
+OS5PFAEEstadodeNacimiento
+OS5PFAEGenero
+OS5PFAERFC
+OS5PFAECURP
+OS5PFAEFolioID
+OS5PFAENacionalidad
+OS5PFAECalidadmigratoria
+OS5PFAECorreoelectronico
+OS5PFAETelefono
+OS5PFAECelular
+OS5PFAEMenoresde23anosquedependen
+OS5PFAETotaldedependientes
+OS5PFAERelacionconelsolicitante
+OS5PFAERelacionadoramajudicialGobiernoLegislativa
+OS5PFAETienemasdeunpaisderesidencia
+OS5PFAETieneoadquiriolaresidenciadelosEUA
+OS5PFAEElobligadoesaccionistauobligadodeotraempresa
+OS5PFAEEsobligadoofiadordeotraempresaoPFAE
+OS5PFAENumeroInterior
+OS5PFAEPiso
+OS5PFAEPais
+OS5PFAECP
+OS5PFAEColonia
+OS5PFAEDelegacionMunicipio
+OS5PFAEEstado
+OS5PFAETipodeDomicilio
+OS5PFAETipodevivienda
+OS5PFAEAntiguedadeneldomicilioactual
+OS5PFAEAntiguedadeneldomicilioanterior
+OS5PFAEEntrecalle1
+OS5PFAEEntrecalle2
+OS5PFAEImportarexportar
+OS5PFAESector
+OS5PFAEGiro
+OS5PFAEActividad
+OS5PFAEFechadealtaenSHCP
+OS5PFAENumerodesucursales
+OS5PFAEAnosdeexperienciaenelsector
+OS5PMRazonsocial
+OS5PMRFC
+OS5PMCorreoelectronico
+OS5PMFechadealtaenSHCP
+OS5PMRelacionadoramajudicialGobiernoLegislativa
+OS5PMTienemasdeunpaisderesidencia
+OS5PMTieneoadquiriolaresidenciadelosEUA
+OS5PMElobligadoesaccionistauobligadodeotraempresa
+OS5PMEsobligadoofiadordeotraempresaoPFAE
+OS5PMNombrecompleto
+OS5PMCargo
+OS5PMTelefono
+OS5PMCalle
+OS5PMNumeroexterior
+OS5PMNumerointerior
+OS5PMPiso
+OS5PMPais
+OS5PMCP
+OS5PMColonia
+OS5PMDelegacionMunicipio
+OS5PMEstado
+OS5PMTipodeDomicilio
+OS5PMTipodevivienda
+OS5PMEntrecalle1
+OS5PMEntrecalle2
+OS5PMImportarexportar
+OS5PMSector
+OS5PMGiro
+OS5PMActividad
+OS5PMNumerodesucursales
+OS5PMAnosdeexperienciaenelsector
+
+
+-----------------------HISTORIAL-CREDITICIO
+Tieneunatarjetadecredito
+Digitalosultimos4numeros
+Erestitulardeuncreditohipotecario
+Hasidotitulardeuncreditoautomotrizenlosultimos24meses
+HoySiendoDia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	const [statePFAEGENERALESNombre, setStatePFAEGENERALESNombre] = useState("")
+	const [statePFAEGENERALESApellidoPaterno, setStatePFAEGENERALESApellidoPaterno] = useState("")
+	const [statePFAEGENERALESApellidoMaterno, setStatePFAEGENERALESApellidoMaterno] = useState("")
+	const [statePFAEGENERALESFechadenacimiento, setStatePFAEGENERALESFechadenacimiento] = useState("")
+	const [statePFAEGENERALESPaisdenacimiento, setStatePFAEGENERALESPaisdenacimiento] = useState("")
+	const [statePFAEGENERALESEstadodeNacimiento, setStatePFAEGENERALESEstadodeNacimiento] = useState("")
+	const [statePFAEGENERALESGenero, setStatePFAEGENERALESGenero] = useState("")
+	const [statePFAEGENERALESRFC, setStatePFAEGENERALESRFC] = useState("")
+	const [statePFAEGENERALESCURP, setStatePFAEGENERALESCURP] = useState("")
+	const [statePFAEGENERALESFolioID, setStatePFAEGENERALESFolioID] = useState("")
+	const [statePFAEGENERALESNacionalidad, setStatePFAEGENERALESNacionalidad] = useState("")
+	const [statePFAEGENERALESCorreoelectronico, setStatePFAEGENERALESCorreoelectronico] = useState("")
+	const [statePFAEGENERALESTelefono, setStatePFAEGENERALESTelefono] = useState("")
+	const [statePFAEGENERALESCelular, setStatePFAEGENERALESCelular] = useState("")
+	const [statePFAEGENERALESEstadoCivil, setStatePFAEGENERALESEstadoCivil] = useState("")
+	const [statePFAEGENERALESMenoresde23anosquedependen, setStatePFAEGENERALESMenoresde23anosquedependen] = useState("")
+	const [statePFAEGENERALESTotaldedependientes, setStatePFAEGENERALESTotaldedependientes] = useState("")
+	const [statePFAEGENERALESNivelacademico, setStatePFAEGENERALESNivelacademico] = useState("")
+	const [statePFAEGENERALESRelacionadoramajudicialGobiernoLegislativa, setStatePFAEGENERALESRelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [statePFAEGENERALESTienemasdeunpaisderesidencia, setStatePFAEGENERALESTienemasdeunpaisderesidencia] = useState("")
+	const [statePFAEGENERALESTieneoadquiriolaresidenciadelosEUA, setStatePFAEGENERALESTieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [statePFAEDOMICILIOCalle, setStatePFAEDOMICILIOCalle] = useState("")
+	const [statePFAEDOMICILIONumeroExterior, setStatePFAEDOMICILIONumeroExterior] = useState("")
+	const [statePFAEDOMICILIONumeroInterior, setStatePFAEDOMICILIONumeroInterior] = useState("")
+	const [statePFAEDOMICILIOPiso, setStatePFAEDOMICILIOPiso] = useState("")
+	const [statePFAEDOMICILIOPais, setStatePFAEDOMICILIOPais] = useState("")
+	const [statePFAEDOMICILIOCP, setStatePFAEDOMICILIOCP] = useState("")
+	const [statePFAEDOMICILIOColonia, setStatePFAEDOMICILIOColonia] = useState("")
+	const [statePFAEDOMICILIODelegacionMunicipio, setStatePFAEDOMICILIODelegacionMunicipio] = useState("")
+	const [statePFAEDOMICILIOEstado, setStatePFAEDOMICILIOEstado] = useState("")
+	const [statePFAEDOMICILIOTipodeDomicilio, setStatePFAEDOMICILIOTipodeDomicilio] = useState("")
+	const [statePFAEDOMICILIOTipodevivienda, setStatePFAEDOMICILIOTipodevivienda] = useState("")
+	const [statePFAEDOMICILIOAntiguedadeneldomicilioactual, setStatePFAEDOMICILIOAntiguedadeneldomicilioactual] = useState("")
+	const [statePFAEDOMICILIOImportedelarenta, setStatePFAEDOMICILIOImportedelarenta] = useState("")
+	const [statePFAEDOMICILIOAntiguedadeneldomicilioanterior, setStatePFAEDOMICILIOAntiguedadeneldomicilioanterior] = useState("")
+	const [statePFAEDOMICILIOEntrecalle1, setStatePFAEDOMICILIOEntrecalle1] = useState("")
+	const [statePFAEDOMICILIOEntrecalle2, setStatePFAEDOMICILIOEntrecalle2] = useState("")
+	const [statePFAEDOMICILIOFISCALCalle, setStatePFAEDOMICILIOFISCALCalle] = useState("")
+	const [statePFAEDOMICILIOFISCALNumeroExterior, setStatePFAEDOMICILIOFISCALNumeroExterior] = useState("")
+	const [statePFAEDOMICILIOFISCALNumeroInterior, setStatePFAEDOMICILIOFISCALNumeroInterior] = useState("")
+	const [statePFAEDOMICILIOFISCALCP, setStatePFAEDOMICILIOFISCALCP] = useState("")
+	const [statePFAEDOMICILIOFISCALColonia, setStatePFAEDOMICILIOFISCALColonia] = useState("")
+	const [statePFAEDOMICILIOFISCALDelegacionMunicipio, setStatePFAEDOMICILIOFISCALDelegacionMunicipio] = useState("")
+	const [statePFAEDOMICILIOFISCALEstado, setStatePFAEDOMICILIOFISCALEstado] = useState("")
+	const [statePFAEDOMICILIOFISCALSector, setStatePFAEDOMICILIOFISCALSector] = useState("")
+	const [statePFAEDOMICILIOFISCALGiro, setStatePFAEDOMICILIOFISCALGiro] = useState("")
+	const [statePFAEDOMICILIOFISCALActividad, setStatePFAEDOMICILIOFISCALActividad] = useState("")
+	const [statePFAEDOMICILIOFISCALFechaaltadeSHCP, setStatePFAEDOMICILIOFISCALFechaaltadeSHCP] = useState("")
+	const [statePFAEDOMICILIOFISCALAnosdeexperienciaenelsector, setStatePFAEDOMICILIOFISCALAnosdeexperienciaenelsector] = useState("")
+	const [statePFAEDOMICILIOFISCALImportarExportar, setStatePFAEDOMICILIOFISCALImportarExportar] = useState("")
+	const [statePFAEDOMICILIOFISCALTotaldeempleados, setStatePFAEDOMICILIOFISCALTotaldeempleados] = useState("")
+	const [statePFAEDOMICILIOFISCALNumerodesucursales, setStatePFAEDOMICILIOFISCALNumerodesucursales] = useState("")
+	const [statePFAEDOMICILIOFISCALTipodelocal, setStatePFAEDOMICILIOFISCALTipodelocal] = useState("")
+	const [statePFAEDOMICILIOFISCALAnosqueloharentado, setStatePFAEDOMICILIOFISCALAnosqueloharentado] = useState("")
+	const [statePFAEDOMICILIOFISCALImporteRentaMensual, setStatePFAEDOMICILIOFISCALImporteRentaMensual] = useState("")
+	const [statePFAEDOMICILIOFISCALAntiguedaddesuactividad, setStatePFAEDOMICILIOFISCALAntiguedaddesuactividad] = useState("")
+	const [statePFAEDOMICILIOFISCALTotaldenominamensual, setStatePFAEDOMICILIOFISCALTotaldenominamensual] = useState("")
+	const [statePFAEDOMICILIOCOMERCIALCalle, setStatePFAEDOMICILIOCOMERCIALCalle] = useState("")
+	const [statePFAEDOMICILIOCOMERCIALNumeroExterior, setStatePFAEDOMICILIOCOMERCIALNumeroExterior] = useState("")
+	const [statePFAEDOMICILIOCOMERCIALNumeroInterior, setStatePFAEDOMICILIOCOMERCIALNumeroInterior] = useState("")
+	const [statePFAEDOMICILIOCOMERCIALCP, setStatePFAEDOMICILIOCOMERCIALCP] = useState("")
+	const [statePFAEDOMICILIOCOMERCIALColonia, setStatePFAEDOMICILIOCOMERCIALColonia] = useState("")
+	const [statePFAEDOMICILIOCOMERCIALDelegacionMunicipio, setStatePFAEDOMICILIOCOMERCIALDelegacionMunicipio] = useState("")
+	const [statePFAEDOMICILIOCOMERCIALEstado, setStatePFAEDOMICILIOCOMERCIALEstado] = useState("")
+	const [statePFAEDOMICILIOCOMERCIALTiempoderesidencia, setStatePFAEDOMICILIOCOMERCIALTiempoderesidencia] = useState("")
+	const [statePFAEECONOMICOSVentasanuales, setStatePFAEECONOMICOSVentasanuales] = useState("")
+	const [statePFAEECONOMICOSTipodecomprobantedeingresos, setStatePFAEECONOMICOSTipodecomprobantedeingresos] = useState("")
+	const [statePFAEECONOMICOSFuentedeingresos, setStatePFAEECONOMICOSFuentedeingresos] = useState("")
+	const [statePMGENERALESRazonsocial, setStatePMGENERALESRazonsocial] = useState("")
+	const [statePMGENERALESRFC, setStatePMGENERALESRFC] = useState("")
+	const [statePMGENERALESNumerodeescritura, setStatePMGENERALESNumerodeescritura] = useState("")
+	const [statePMGENERALESFechadealtaenSHCP, setStatePMGENERALESFechadealtaenSHCP] = useState("")
+	const [statePMGENERALESDuraciondelasociedad, setStatePMGENERALESDuraciondelasociedad] = useState("")
+	const [statePMGENERALESFoliomercantil, setStatePMGENERALESFoliomercantil] = useState("")
+	const [statePMREPRESENTANTELEGALNombrecompleto, setStatePMREPRESENTANTELEGALNombrecompleto] = useState("")
+	const [statePMREPRESENTANTELEGALCargo, setStatePMREPRESENTANTELEGALCargo] = useState("")
+	const [statePMREPRESENTANTELEGALTelefono, setStatePMREPRESENTANTELEGALTelefono] = useState("")
+	const [statePMCONTACTOEMPRESANombrecompleto, setStatePMCONTACTOEMPRESANombrecompleto] = useState("")
+	const [statePMCONTACTOEMPRESACargo, setStatePMCONTACTOEMPRESACargo] = useState("")
+	const [statePMCONTACTOEMPRESATelefono, setStatePMCONTACTOEMPRESATelefono] = useState("")
+	const [statePMDOMICILIONEGOCIOCalle, setStatePMDOMICILIONEGOCIOCalle] = useState("")
+	const [statePMDOMICILIONEGOCIONumeroexterior, setStatePMDOMICILIONEGOCIONumeroexterior] = useState("")
+	const [statePMDOMICILIONEGOCIONumerointerior, setStatePMDOMICILIONEGOCIONumerointerior] = useState("")
+	const [statePMDOMICILIONEGOCIOPiso, setStatePMDOMICILIONEGOCIOPiso] = useState("")
+	const [statePMDOMICILIONEGOCIOPais, setStatePMDOMICILIONEGOCIOPais] = useState("")
+	const [statePMDOMICILIONEGOCIOCP, setStatePMDOMICILIONEGOCIOCP] = useState("")
+	const [statePMDOMICILIONEGOCIOColonia, setStatePMDOMICILIONEGOCIOColonia] = useState("")
+	const [statePMDOMICILIONEGOCIODelegacionMunicipio, setStatePMDOMICILIONEGOCIODelegacionMunicipio] = useState("")
+	const [statePMDOMICILIONEGOCIOEstado, setStatePMDOMICILIONEGOCIOEstado] = useState("")
+	const [statePMDOMICILIONEGOCIOTipodevivienda, setStatePMDOMICILIONEGOCIOTipodevivienda] = useState("")
+	const [statePMINFORMACIONNEGOCIOImportarexportar, setStatePMINFORMACIONNEGOCIOImportarexportar] = useState("")
+	const [statePMINFORMACIONNEGOCIOSector, setStatePMINFORMACIONNEGOCIOSector] = useState("")
+	const [statePMINFORMACIONNEGOCIOGiro, setStatePMINFORMACIONNEGOCIOGiro] = useState("")
+	const [statePMINFORMACIONNEGOCIOActividad, setStatePMINFORMACIONNEGOCIOActividad] = useState("")
+	const [statePMINFORMACIONNEGOCIOAnosdeexperienciaenelsector, setStatePMINFORMACIONNEGOCIOAnosdeexperienciaenelsector] = useState("")
+	const [statePMINFORMACIONNEGOCIOAnosdeantiguedadensuactividad, setStatePMINFORMACIONNEGOCIOAnosdeantiguedadensuactividad] = useState("")
+	const [statePMINFORMACIONNEGOCIOTotaldeempleados, setStatePMINFORMACIONNEGOCIOTotaldeempleados] = useState("")
+	const [statePMINFORMACIONNEGOCIONumerodesucursales, setStatePMINFORMACIONNEGOCIONumerodesucursales] = useState("")
+	const [statePMINFORMACIONNEGOCIOTipodelocal, setStatePMINFORMACIONNEGOCIOTipodelocal] = useState("")
+	const [statePMINFORMACIONNEGOCIOAnosqueloharentado, setStatePMINFORMACIONNEGOCIOAnosqueloharentado] = useState("")
+	const [statePMINFORMACIONNEGOCIOImporteRentaMensual, setStatePMINFORMACIONNEGOCIOImporteRentaMensual] = useState("")
+	const [statePMINFORMACIONNEGOCIOTotaldenominamensual, setStatePMINFORMACIONNEGOCIOTotaldenominamensual] = useState("")
+	const [statePMECONOMICOSVentasanuales, setStatePMECONOMICOSVentasanuales] = useState("")
+	const [statePMECONOMICOSTipodecomprobantedeingresos, setStatePMECONOMICOSTipodecomprobantedeingresos] = useState("")
+	const [statePMECONOMICOSFuentedeingresos, setStatePMECONOMICOSFuentedeingresos] = useState("")
+	const [stateSP1Nombrerazonsocial, setStateSP1Nombrerazonsocial] = useState("")
+	const [stateSP1Accionario, setStateSP1Accionario] = useState("")
+	const [stateSP1RFC, setStateSP1RFC] = useState("")
+	const [stateSP1Puestoenlaempresa, setStateSP1Puestoenlaempresa] = useState("")
+	const [stateSP2Nombrerazonsocial, setStateSP2Nombrerazonsocial] = useState("")
+	const [stateSP2Accionario, setStateSP2Accionario] = useState("")
+	const [stateSP2RFC, setStateSP2RFC] = useState("")
+	const [stateSP2Puestoenlaempresa, setStateSP2Puestoenlaempresa] = useState("")
+	const [stateSP3Nombrerazonsocial, setStateSP3Nombrerazonsocial] = useState("")
+	const [stateSP3Accionario, setStateSP3Accionario] = useState("")
+	const [stateSP3RFC, setStateSP3RFC] = useState("")
+	const [stateSP3Puestoenlaempresa, setStateSP3Puestoenlaempresa] = useState("")
+	const [stateSP4Nombrerazonsocial, setStateSP4Nombrerazonsocial] = useState("")
+	const [stateSP4Accionario, setStateSP4Accionario] = useState("")
+	const [stateSP4RFC, setStateSP4RFC] = useState("")
+	const [stateSP4Puestoenlaempresa, setStateSP4Puestoenlaempresa] = useState("")
+	const [stateSP5Nombrerazonsocial, setStateSP5Nombrerazonsocial] = useState("")
+	const [stateSP5Accionario, setStateSP5Accionario] = useState("")
+	const [stateSP5RFC, setStateSP5RFC] = useState("")
+	const [stateSP5Puestoenlaempresa, setStateSP5Puestoenlaempresa] = useState("")
+	const [statePRINCIPALACCIONISTANombre, setStatePRINCIPALACCIONISTANombre] = useState("")
+	const [statePRINCIPALACCIONISTAApellidoPaterno, setStatePRINCIPALACCIONISTAApellidoPaterno] = useState("")
+	const [statePRINCIPALACCIONISTAApellidoMaterno, setStatePRINCIPALACCIONISTAApellidoMaterno] = useState("")
+	const [statePRINCIPALACCIONISTAFechadenacimiento, setStatePRINCIPALACCIONISTAFechadenacimiento] = useState("")
+	const [statePRINCIPALACCIONISTAPaisdenacimiento, setStatePRINCIPALACCIONISTAPaisdenacimiento] = useState("")
+	const [statePRINCIPALACCIONISTAEstadodeNacimiento, setStatePRINCIPALACCIONISTAEstadodeNacimiento] = useState("")
+	const [statePRINCIPALACCIONISTAGenero, setStatePRINCIPALACCIONISTAGenero] = useState("")
+	const [statePRINCIPALACCIONISTARFC, setStatePRINCIPALACCIONISTARFC] = useState("")
+	const [statePRINCIPALACCIONISTACURP, setStatePRINCIPALACCIONISTACURP] = useState("")
+	const [statePRINCIPALACCIONISTAFolioID, setStatePRINCIPALACCIONISTAFolioID] = useState("")
+	const [statePRINCIPALACCIONISTANacionalidad, setStatePRINCIPALACCIONISTANacionalidad] = useState("")
+	const [statePRINCIPALACCIONISTACalidadmigratoria, setStatePRINCIPALACCIONISTACalidadmigratoria] = useState("")
+	const [statePRINCIPALACCIONISTACorreoelectronico, setStatePRINCIPALACCIONISTACorreoelectronico] = useState("")
+	const [statePRINCIPALACCIONISTATelefono, setStatePRINCIPALACCIONISTATelefono] = useState("")
+	const [statePRINCIPALACCIONISTACelular, setStatePRINCIPALACCIONISTACelular] = useState("")
+	const [statePRINCIPALACCIONISTAEstadocivil, setStatePRINCIPALACCIONISTAEstadocivil] = useState("")
+	const [statePRINCIPALACCIONISTAMenoresde23anosquedependen, setStatePRINCIPALACCIONISTAMenoresde23anosquedependen] = useState("")
+	const [statePRINCIPALACCIONISTATotaldedependientes, setStatePRINCIPALACCIONISTATotaldedependientes] = useState("")
+	const [statePRINCIPALACCIONISTANivelacademico, setStatePRINCIPALACCIONISTANivelacademico] = useState("")
+	const [statePRINCIPALACCIONISTARelacionadoramajudicialGobiernoLegislativa, setStatePRINCIPALACCIONISTARelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [statePRINCIPALACCIONISTATienemasdeunpaisderesidenciafiscal, setStatePRINCIPALACCIONISTATienemasdeunpaisderesidenciafiscal] = useState("")
+	const [statePRINCIPALACCIONISTATieneoadquiriolaresidenciadelosEUA, setStatePRINCIPALACCIONISTATieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [statePRINCIPALACCIONISTAElobligadoesaccionistauobligadodeotraempresa, setStatePRINCIPALACCIONISTAElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [statePRINCIPALACCIONISTAEsobligadoofiadordeotraempresaoPFAE, setStatePRINCIPALACCIONISTAEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [statePRINCIPALACCIONISTATotaldenominamensual, setStatePRINCIPALACCIONISTATotaldenominamensual] = useState("")
+	const [statePRINCIPALACCIONISTAFuentedeingresos, setStatePRINCIPALACCIONISTAFuentedeingresos] = useState("")
+	const [statePRINCIPALACCIONISTAInformaciondedomicilio, setStatePRINCIPALACCIONISTAInformaciondedomicilio] = useState("")
+	const [statePRINCIPALACCIONISTACalle, setStatePRINCIPALACCIONISTACalle] = useState("")
+	const [statePRINCIPALACCIONISTANumerointerior, setStatePRINCIPALACCIONISTANumerointerior] = useState("")
+	const [statePRINCIPALACCIONISTANumeroexterior, setStatePRINCIPALACCIONISTANumeroexterior] = useState("")
+	const [statePRINCIPALACCIONISTAPiso, setStatePRINCIPALACCIONISTAPiso] = useState("")
+	const [statePRINCIPALACCIONISTAPais, setStatePRINCIPALACCIONISTAPais] = useState("")
+	const [statePRINCIPALACCIONISTACP, setStatePRINCIPALACCIONISTACP] = useState("")
+	const [statePRINCIPALACCIONISTAColonia, setStatePRINCIPALACCIONISTAColonia] = useState("")
+	const [statePRINCIPALACCIONISTADelegacionMunicipio, setStatePRINCIPALACCIONISTADelegacionMunicipio] = useState("")
+	const [statePRINCIPALACCIONISTAEstado, setStatePRINCIPALACCIONISTAEstado] = useState("")
+	const [statePRINCIPALACCIONISTATipodeDomicilio, setStatePRINCIPALACCIONISTATipodeDomicilio] = useState("")
+	const [statePRINCIPALACCIONISTATipodevivienda, setStatePRINCIPALACCIONISTATipodevivienda] = useState("")
+	const [statePRINCIPALACCIONISTAAntiguedadeneldomicilioactual, setStatePRINCIPALACCIONISTAAntiguedadeneldomicilioactual] = useState("")
+	const [statePRINCIPALACCIONISTAAntiguedadeneldomicilioanterior, setStatePRINCIPALACCIONISTAAntiguedadeneldomicilioanterior] = useState("")
+	const [statePRINCIPALACCIONISTAEntrecalle1, setStatePRINCIPALACCIONISTAEntrecalle1] = useState("")
+	const [statePRINCIPALACCIONISTAEntrecalle2, setStatePRINCIPALACCIONISTAEntrecalle2] = useState("")
+	const [stateOS1PFNombre, setStateOS1PFNombre] = useState("")
+	const [stateOS1PFApellidoPaterno, setStateOS1PFApellidoPaterno] = useState("")
+	const [stateOS1PFApellidoMaterno, setStateOS1PFApellidoMaterno] = useState("")
+	const [stateOS1PFFechadenacimiento, setStateOS1PFFechadenacimiento] = useState("")
+	const [stateOS1PFPaisdenacimiento, setStateOS1PFPaisdenacimiento] = useState("")
+	const [stateOS1PFEstadodeNacimiento, setStateOS1PFEstadodeNacimiento] = useState("")
+	const [stateOS1PFGenero, setStateOS1PFGenero] = useState("")
+	const [stateOS1PFRFC, setStateOS1PFRFC] = useState("")
+	const [stateOS1PFCURP, setStateOS1PFCURP] = useState("")
+	const [stateOS1PFFolioID, setStateOS1PFFolioID] = useState("")
+	const [stateOS1PFNacionalidad, setStateOS1PFNacionalidad] = useState("")
+	const [stateOS1PFCalidadmigratoria, setStateOS1PFCalidadmigratoria] = useState("")
+	const [stateOS1PFCorreoelectronico, setStateOS1PFCorreoelectronico] = useState("")
+	const [stateOS1PFTelefono, setStateOS1PFTelefono] = useState("")
+	const [stateOS1PFCelular, setStateOS1PFCelular] = useState("")
+	const [stateOS1PFMenoresde23anosquedependen, setStateOS1PFMenoresde23anosquedependen] = useState("")
+	const [stateOS1PFTotaldedependientes, setStateOS1PFTotaldedependientes] = useState("")
+	const [stateOS1PFRelacionconelsolicitante, setStateOS1PFRelacionconelsolicitante] = useState("")
+	const [stateOS1PFRelacionadoramajudicialGobiernoLegislativa, setStateOS1PFRelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [stateOS1PFTienemasdeunpaisderesidencia, setStateOS1PFTienemasdeunpaisderesidencia] = useState("")
+	const [stateOS1PFTieneoadquiriolaresidenciadelosEUA, setStateOS1PFTieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [stateOS1PFElobligadoesaccionistauobligadodeotraempresa, setStateOS1PFElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [stateOS1PFEsobligadoofiadordeotraempresaoPFAE, setStateOS1PFEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [stateOS1PFNumeroInterior, setStateOS1PFNumeroInterior] = useState("")
+	const [stateOS1PFPiso, setStateOS1PFPiso] = useState("")
+	const [stateOS1PFPais, setStateOS1PFPais] = useState("")
+	const [stateOS1PFCP, setStateOS1PFCP] = useState("")
+	const [stateOS1PFColonia, setStateOS1PFColonia] = useState("")
+	const [stateOS1PFDelegacionMunicipio, setStateOS1PFDelegacionMunicipio] = useState("")
+	const [stateOS1PFEstado, setStateOS1PFEstado] = useState("")
+	const [stateOS1PFTipodeDomicilio, setStateOS1PFTipodeDomicilio] = useState("")
+	const [stateOS1PFTipodevivienda, setStateOS1PFTipodevivienda] = useState("")
+	const [stateOS1PFAntiguedadeneldomicilioactual, setStateOS1PFAntiguedadeneldomicilioactual] = useState("")
+	const [stateOS1PFAntiguedadeneldomicilioanterior, setStateOS1PFAntiguedadeneldomicilioanterior] = useState("")
+	const [stateOS1PFEntrecalle1, setStateOS1PFEntrecalle1] = useState("")
+	const [stateOS1PFEntrecalle2, setStateOS1PFEntrecalle2] = useState("")
+	const [stateOS1PFAENombre, setStateOS1PFAENombre] = useState("")
+	const [stateOS1PFAEApellidoPaterno, setStateOS1PFAEApellidoPaterno] = useState("")
+	const [stateOS1PFAEApellidoMaterno, setStateOS1PFAEApellidoMaterno] = useState("")
+	const [stateOS1PFAEFechadenacimiento, setStateOS1PFAEFechadenacimiento] = useState("")
+	const [stateOS1PFAEPaisdenacimiento, setStateOS1PFAEPaisdenacimiento] = useState("")
+	const [stateOS1PFAEEstadodeNacimiento, setStateOS1PFAEEstadodeNacimiento] = useState("")
+	const [stateOS1PFAEGenero, setStateOS1PFAEGenero] = useState("")
+	const [stateOS1PFAERFC, setStateOS1PFAERFC] = useState("")
+	const [stateOS1PFAECURP, setStateOS1PFAECURP] = useState("")
+	const [stateOS1PFAEFolioID, setStateOS1PFAEFolioID] = useState("")
+	const [stateOS1PFAENacionalidad, setStateOS1PFAENacionalidad] = useState("")
+	const [stateOS1PFAECalidadmigratoria, setStateOS1PFAECalidadmigratoria] = useState("")
+	const [stateOS1PFAECorreoelectronico, setStateOS1PFAECorreoelectronico] = useState("")
+	const [stateOS1PFAETelefono, setStateOS1PFAETelefono] = useState("")
+	const [stateOS1PFAECelular, setStateOS1PFAECelular] = useState("")
+	const [stateOS1PFAEMenoresde23anosquedependen, setStateOS1PFAEMenoresde23anosquedependen] = useState("")
+	const [stateOS1PFAETotaldedependientes, setStateOS1PFAETotaldedependientes] = useState("")
+	const [stateOS1PFAERelacionconelsolicitante, setStateOS1PFAERelacionconelsolicitante] = useState("")
+	const [stateOS1PFAERelacionadoramajudicialGobiernoLegislativa, setStateOS1PFAERelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [stateOS1PFAETienemasdeunpaisderesidencia, setStateOS1PFAETienemasdeunpaisderesidencia] = useState("")
+	const [stateOS1PFAETieneoadquiriolaresidenciadelosEUA, setStateOS1PFAETieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [stateOS1PFAEElobligadoesaccionistauobligadodeotraempresa, setStateOS1PFAEElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [stateOS1PFAEEsobligadoofiadordeotraempresaoPFAE, setStateOS1PFAEEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [stateOS1PFAENumeroInterior, setStateOS1PFAENumeroInterior] = useState("")
+	const [stateOS1PFAEPiso, setStateOS1PFAEPiso] = useState("")
+	const [stateOS1PFAEPais, setStateOS1PFAEPais] = useState("")
+	const [stateOS1PFAECP, setStateOS1PFAECP] = useState("")
+	const [stateOS1PFAEColonia, setStateOS1PFAEColonia] = useState("")
+	const [stateOS1PFAEDelegacionMunicipio, setStateOS1PFAEDelegacionMunicipio] = useState("")
+	const [stateOS1PFAEEstado, setStateOS1PFAEEstado] = useState("")
+	const [stateOS1PFAETipodeDomicilio, setStateOS1PFAETipodeDomicilio] = useState("")
+	const [stateOS1PFAETipodevivienda, setStateOS1PFAETipodevivienda] = useState("")
+	const [stateOS1PFAEAntiguedadeneldomicilioactual, setStateOS1PFAEAntiguedadeneldomicilioactual] = useState("")
+	const [stateOS1PFAEAntiguedadeneldomicilioanterior, setStateOS1PFAEAntiguedadeneldomicilioanterior] = useState("")
+	const [stateOS1PFAEEntrecalle1, setStateOS1PFAEEntrecalle1] = useState("")
+	const [stateOS1PFAEEntrecalle2, setStateOS1PFAEEntrecalle2] = useState("")
+	const [stateOS1PFAEImportarexportar, setStateOS1PFAEImportarexportar] = useState("")
+	const [stateOS1PFAESector, setStateOS1PFAESector] = useState("")
+	const [stateOS1PFAEGiro, setStateOS1PFAEGiro] = useState("")
+	const [stateOS1PFAEActividad, setStateOS1PFAEActividad] = useState("")
+	const [stateOS1PFAEFechadealtaenSHCP, setStateOS1PFAEFechadealtaenSHCP] = useState("")
+	const [stateOS1PFAENumerodesucursales, setStateOS1PFAENumerodesucursales] = useState("")
+	const [stateOS1PFAEAnosdeexperienciaenelsector, setStateOS1PFAEAnosdeexperienciaenelsector] = useState("")
+	const [stateOS1PMRazonsocial, setStateOS1PMRazonsocial] = useState("")
+	const [stateOS1PMRFC, setStateOS1PMRFC] = useState("")
+	const [stateOS1PMCorreoelectronico, setStateOS1PMCorreoelectronico] = useState("")
+	const [stateOS1PMFechadealtaenSHCP, setStateOS1PMFechadealtaenSHCP] = useState("")
+	const [stateOS1PMRelacionadoramajudicialGobiernoLegislativa, setStateOS1PMRelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [stateOS1PMTienemasdeunpaisderesidencia, setStateOS1PMTienemasdeunpaisderesidencia] = useState("")
+	const [stateOS1PMTieneoadquiriolaresidenciadelosEUA, setStateOS1PMTieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [stateOS1PMElobligadoesaccionistauobligadodeotraempresa, setStateOS1PMElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [stateOS1PMEsobligadoofiadordeotraempresaoPFAE, setStateOS1PMEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [stateOS1PMNombrecompleto, setStateOS1PMNombrecompleto] = useState("")
+	const [stateOS1PMCargo, setStateOS1PMCargo] = useState("")
+	const [stateOS1PMTelefono, setStateOS1PMTelefono] = useState("")
+	const [stateOS1PMCalle, setStateOS1PMCalle] = useState("")
+	const [stateOS1PMNumeroexterior, setStateOS1PMNumeroexterior] = useState("")
+	const [stateOS1PMNumerointerior, setStateOS1PMNumerointerior] = useState("")
+	const [stateOS1PMPiso, setStateOS1PMPiso] = useState("")
+	const [stateOS1PMPais, setStateOS1PMPais] = useState("")
+	const [stateOS1PMCP, setStateOS1PMCP] = useState("")
+	const [stateOS1PMColonia, setStateOS1PMColonia] = useState("")
+	const [stateOS1PMDelegacionMunicipio, setStateOS1PMDelegacionMunicipio] = useState("")
+	const [stateOS1PMEstado, setStateOS1PMEstado] = useState("")
+	const [stateOS1PMTipodeDomicilio, setStateOS1PMTipodeDomicilio] = useState("")
+	const [stateOS1PMTipodevivienda, setStateOS1PMTipodevivienda] = useState("")
+	const [stateOS1PMEntrecalle1, setStateOS1PMEntrecalle1] = useState("")
+	const [stateOS1PMEntrecalle2, setStateOS1PMEntrecalle2] = useState("")
+	const [stateOS1PMImportarexportar, setStateOS1PMImportarexportar] = useState("")
+	const [stateOS1PMSector, setStateOS1PMSector] = useState("")
+	const [stateOS1PMGiro, setStateOS1PMGiro] = useState("")
+	const [stateOS1PMActividad, setStateOS1PMActividad] = useState("")
+	const [stateOS1PMNumerodesucursales, setStateOS1PMNumerodesucursales] = useState("")
+	const [stateOS1PMAnosdeexperienciaenelsector, setStateOS1PMAnosdeexperienciaenelsector] = useState("")
+	const [stateOS2PFNombre, setStateOS2PFNombre] = useState("")
+	const [stateOS2PFApellidoPaterno, setStateOS2PFApellidoPaterno] = useState("")
+	const [stateOS2PFApellidoMaterno, setStateOS2PFApellidoMaterno] = useState("")
+	const [stateOS2PFFechadenacimiento, setStateOS2PFFechadenacimiento] = useState("")
+	const [stateOS2PFPaisdenacimiento, setStateOS2PFPaisdenacimiento] = useState("")
+	const [stateOS2PFEstadodeNacimiento, setStateOS2PFEstadodeNacimiento] = useState("")
+	const [stateOS2PFGenero, setStateOS2PFGenero] = useState("")
+	const [stateOS2PFRFC, setStateOS2PFRFC] = useState("")
+	const [stateOS2PFCURP, setStateOS2PFCURP] = useState("")
+	const [stateOS2PFFolioID, setStateOS2PFFolioID] = useState("")
+	const [stateOS2PFNacionalidad, setStateOS2PFNacionalidad] = useState("")
+	const [stateOS2PFCalidadmigratoria, setStateOS2PFCalidadmigratoria] = useState("")
+	const [stateOS2PFCorreoelectronico, setStateOS2PFCorreoelectronico] = useState("")
+	const [stateOS2PFTelefono, setStateOS2PFTelefono] = useState("")
+	const [stateOS2PFCelular, setStateOS2PFCelular] = useState("")
+	const [stateOS2PFMenoresde23anosquedependen, setStateOS2PFMenoresde23anosquedependen] = useState("")
+	const [stateOS2PFTotaldedependientes, setStateOS2PFTotaldedependientes] = useState("")
+	const [stateOS2PFRelacionconelsolicitante, setStateOS2PFRelacionconelsolicitante] = useState("")
+	const [stateOS2PFRelacionadoramajudicialGobiernoLegislativa, setStateOS2PFRelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [stateOS2PFTienemasdeunpaisderesidencia, setStateOS2PFTienemasdeunpaisderesidencia] = useState("")
+	const [stateOS2PFTieneoadquiriolaresidenciadelosEUA, setStateOS2PFTieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [stateOS2PFElobligadoesaccionistauobligadodeotraempresa, setStateOS2PFElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [stateOS2PFEsobligadoofiadordeotraempresaoPFAE, setStateOS2PFEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [stateOS2PFNumeroInterior, setStateOS2PFNumeroInterior] = useState("")
+	const [stateOS2PFPiso, setStateOS2PFPiso] = useState("")
+	const [stateOS2PFPais, setStateOS2PFPais] = useState("")
+	const [stateOS2PFCP, setStateOS2PFCP] = useState("")
+	const [stateOS2PFColonia, setStateOS2PFColonia] = useState("")
+	const [stateOS2PFDelegacionMunicipio, setStateOS2PFDelegacionMunicipio] = useState("")
+	const [stateOS2PFEstado, setStateOS2PFEstado] = useState("")
+	const [stateOS2PFTipodeDomicilio, setStateOS2PFTipodeDomicilio] = useState("")
+	const [stateOS2PFTipodevivienda, setStateOS2PFTipodevivienda] = useState("")
+	const [stateOS2PFAntiguedadeneldomicilioactual, setStateOS2PFAntiguedadeneldomicilioactual] = useState("")
+	const [stateOS2PFAntiguedadeneldomicilioanterior, setStateOS2PFAntiguedadeneldomicilioanterior] = useState("")
+	const [stateOS2PFEntrecalle1, setStateOS2PFEntrecalle1] = useState("")
+	const [stateOS2PFEntrecalle2, setStateOS2PFEntrecalle2] = useState("")
+	const [stateOS2PFAENombre, setStateOS2PFAENombre] = useState("")
+	const [stateOS2PFAEApellidoPaterno, setStateOS2PFAEApellidoPaterno] = useState("")
+	const [stateOS2PFAEApellidoMaterno, setStateOS2PFAEApellidoMaterno] = useState("")
+	const [stateOS2PFAEFechadenacimiento, setStateOS2PFAEFechadenacimiento] = useState("")
+	const [stateOS2PFAEPaisdenacimiento, setStateOS2PFAEPaisdenacimiento] = useState("")
+	const [stateOS2PFAEEstadodeNacimiento, setStateOS2PFAEEstadodeNacimiento] = useState("")
+	const [stateOS2PFAEGenero, setStateOS2PFAEGenero] = useState("")
+	const [stateOS2PFAERFC, setStateOS2PFAERFC] = useState("")
+	const [stateOS2PFAECURP, setStateOS2PFAECURP] = useState("")
+	const [stateOS2PFAEFolioID, setStateOS2PFAEFolioID] = useState("")
+	const [stateOS2PFAENacionalidad, setStateOS2PFAENacionalidad] = useState("")
+	const [stateOS2PFAECalidadmigratoria, setStateOS2PFAECalidadmigratoria] = useState("")
+	const [stateOS2PFAECorreoelectronico, setStateOS2PFAECorreoelectronico] = useState("")
+	const [stateOS2PFAETelefono, setStateOS2PFAETelefono] = useState("")
+	const [stateOS2PFAECelular, setStateOS2PFAECelular] = useState("")
+	const [stateOS2PFAEMenoresde23anosquedependen, setStateOS2PFAEMenoresde23anosquedependen] = useState("")
+	const [stateOS2PFAETotaldedependientes, setStateOS2PFAETotaldedependientes] = useState("")
+	const [stateOS2PFAERelacionconelsolicitante, setStateOS2PFAERelacionconelsolicitante] = useState("")
+	const [stateOS2PFAERelacionadoramajudicialGobiernoLegislativa, setStateOS2PFAERelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [stateOS2PFAETienemasdeunpaisderesidencia, setStateOS2PFAETienemasdeunpaisderesidencia] = useState("")
+	const [stateOS2PFAETieneoadquiriolaresidenciadelosEUA, setStateOS2PFAETieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [stateOS2PFAEElobligadoesaccionistauobligadodeotraempresa, setStateOS2PFAEElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [stateOS2PFAEEsobligadoofiadordeotraempresaoPFAE, setStateOS2PFAEEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [stateOS2PFAENumeroInterior, setStateOS2PFAENumeroInterior] = useState("")
+	const [stateOS2PFAEPiso, setStateOS2PFAEPiso] = useState("")
+	const [stateOS2PFAEPais, setStateOS2PFAEPais] = useState("")
+	const [stateOS2PFAECP, setStateOS2PFAECP] = useState("")
+	const [stateOS2PFAEColonia, setStateOS2PFAEColonia] = useState("")
+	const [stateOS2PFAEDelegacionMunicipio, setStateOS2PFAEDelegacionMunicipio] = useState("")
+	const [stateOS2PFAEEstado, setStateOS2PFAEEstado] = useState("")
+	const [stateOS2PFAETipodeDomicilio, setStateOS2PFAETipodeDomicilio] = useState("")
+	const [stateOS2PFAETipodevivienda, setStateOS2PFAETipodevivienda] = useState("")
+	const [stateOS2PFAEAntiguedadeneldomicilioactual, setStateOS2PFAEAntiguedadeneldomicilioactual] = useState("")
+	const [stateOS2PFAEAntiguedadeneldomicilioanterior, setStateOS2PFAEAntiguedadeneldomicilioanterior] = useState("")
+	const [stateOS2PFAEEntrecalle1, setStateOS2PFAEEntrecalle1] = useState("")
+	const [stateOS2PFAEEntrecalle2, setStateOS2PFAEEntrecalle2] = useState("")
+	const [stateOS2PFAEImportarexportar, setStateOS2PFAEImportarexportar] = useState("")
+	const [stateOS2PFAESector, setStateOS2PFAESector] = useState("")
+	const [stateOS2PFAEGiro, setStateOS2PFAEGiro] = useState("")
+	const [stateOS2PFAEActividad, setStateOS2PFAEActividad] = useState("")
+	const [stateOS2PFAEFechadealtaenSHCP, setStateOS2PFAEFechadealtaenSHCP] = useState("")
+	const [stateOS2PFAENumerodesucursales, setStateOS2PFAENumerodesucursales] = useState("")
+	const [stateOS2PFAEAnosdeexperienciaenelsector, setStateOS2PFAEAnosdeexperienciaenelsector] = useState("")
+	const [stateOS2PMRazonsocial, setStateOS2PMRazonsocial] = useState("")
+	const [stateOS2PMRFC, setStateOS2PMRFC] = useState("")
+	const [stateOS2PMCorreoelectronico, setStateOS2PMCorreoelectronico] = useState("")
+	const [stateOS2PMFechadealtaenSHCP, setStateOS2PMFechadealtaenSHCP] = useState("")
+	const [stateOS2PMRelacionadoramajudicialGobiernoLegislativa, setStateOS2PMRelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [stateOS2PMTienemasdeunpaisderesidencia, setStateOS2PMTienemasdeunpaisderesidencia] = useState("")
+	const [stateOS2PMTieneoadquiriolaresidenciadelosEUA, setStateOS2PMTieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [stateOS2PMElobligadoesaccionistauobligadodeotraempresa, setStateOS2PMElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [stateOS2PMEsobligadoofiadordeotraempresaoPFAE, setStateOS2PMEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [stateOS2PMNombrecompleto, setStateOS2PMNombrecompleto] = useState("")
+	const [stateOS2PMCargo, setStateOS2PMCargo] = useState("")
+	const [stateOS2PMTelefono, setStateOS2PMTelefono] = useState("")
+	const [stateOS2PMCalle, setStateOS2PMCalle] = useState("")
+	const [stateOS2PMNumeroexterior, setStateOS2PMNumeroexterior] = useState("")
+	const [stateOS2PMNumerointerior, setStateOS2PMNumerointerior] = useState("")
+	const [stateOS2PMPiso, setStateOS2PMPiso] = useState("")
+	const [stateOS2PMPais, setStateOS2PMPais] = useState("")
+	const [stateOS2PMCP, setStateOS2PMCP] = useState("")
+	const [stateOS2PMColonia, setStateOS2PMColonia] = useState("")
+	const [stateOS2PMDelegacionMunicipio, setStateOS2PMDelegacionMunicipio] = useState("")
+	const [stateOS2PMEstado, setStateOS2PMEstado] = useState("")
+	const [stateOS2PMTipodeDomicilio, setStateOS2PMTipodeDomicilio] = useState("")
+	const [stateOS2PMTipodevivienda, setStateOS2PMTipodevivienda] = useState("")
+	const [stateOS2PMEntrecalle1, setStateOS2PMEntrecalle1] = useState("")
+	const [stateOS2PMEntrecalle2, setStateOS2PMEntrecalle2] = useState("")
+	const [stateOS2PMImportarexportar, setStateOS2PMImportarexportar] = useState("")
+	const [stateOS2PMSector, setStateOS2PMSector] = useState("")
+	const [stateOS2PMGiro, setStateOS2PMGiro] = useState("")
+	const [stateOS2PMActividad, setStateOS2PMActividad] = useState("")
+	const [stateOS2PMNumerodesucursales, setStateOS2PMNumerodesucursales] = useState("")
+	const [stateOS2PMAnosdeexperienciaenelsector, setStateOS2PMAnosdeexperienciaenelsector] = useState("")
+	const [stateOS3PFNombre, setStateOS3PFNombre] = useState("")
+	const [stateOS3PFApellidoPaterno, setStateOS3PFApellidoPaterno] = useState("")
+	const [stateOS3PFApellidoMaterno, setStateOS3PFApellidoMaterno] = useState("")
+	const [stateOS3PFFechadenacimiento, setStateOS3PFFechadenacimiento] = useState("")
+	const [stateOS3PFPaisdenacimiento, setStateOS3PFPaisdenacimiento] = useState("")
+	const [stateOS3PFEstadodeNacimiento, setStateOS3PFEstadodeNacimiento] = useState("")
+	const [stateOS3PFGenero, setStateOS3PFGenero] = useState("")
+	const [stateOS3PFRFC, setStateOS3PFRFC] = useState("")
+	const [stateOS3PFCURP, setStateOS3PFCURP] = useState("")
+	const [stateOS3PFFolioID, setStateOS3PFFolioID] = useState("")
+	const [stateOS3PFNacionalidad, setStateOS3PFNacionalidad] = useState("")
+	const [stateOS3PFCalidadmigratoria, setStateOS3PFCalidadmigratoria] = useState("")
+	const [stateOS3PFCorreoelectronico, setStateOS3PFCorreoelectronico] = useState("")
+	const [stateOS3PFTelefono, setStateOS3PFTelefono] = useState("")
+	const [stateOS3PFCelular, setStateOS3PFCelular] = useState("")
+	const [stateOS3PFMenoresde23anosquedependen, setStateOS3PFMenoresde23anosquedependen] = useState("")
+	const [stateOS3PFTotaldedependientes, setStateOS3PFTotaldedependientes] = useState("")
+	const [stateOS3PFRelacionconelsolicitante, setStateOS3PFRelacionconelsolicitante] = useState("")
+	const [stateOS3PFRelacionadoramajudicialGobiernoLegislativa, setStateOS3PFRelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [stateOS3PFTienemasdeunpaisderesidencia, setStateOS3PFTienemasdeunpaisderesidencia] = useState("")
+	const [stateOS3PFTieneoadquiriolaresidenciadelosEUA, setStateOS3PFTieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [stateOS3PFElobligadoesaccionistauobligadodeotraempresa, setStateOS3PFElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [stateOS3PFEsobligadoofiadordeotraempresaoPFAE, setStateOS3PFEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [stateOS3PFNumeroInterior, setStateOS3PFNumeroInterior] = useState("")
+	const [stateOS3PFPiso, setStateOS3PFPiso] = useState("")
+	const [stateOS3PFPais, setStateOS3PFPais] = useState("")
+	const [stateOS3PFCP, setStateOS3PFCP] = useState("")
+	const [stateOS3PFColonia, setStateOS3PFColonia] = useState("")
+	const [stateOS3PFDelegacionMunicipio, setStateOS3PFDelegacionMunicipio] = useState("")
+	const [stateOS3PFEstado, setStateOS3PFEstado] = useState("")
+	const [stateOS3PFTipodeDomicilio, setStateOS3PFTipodeDomicilio] = useState("")
+	const [stateOS3PFTipodevivienda, setStateOS3PFTipodevivienda] = useState("")
+	const [stateOS3PFAntiguedadeneldomicilioactual, setStateOS3PFAntiguedadeneldomicilioactual] = useState("")
+	const [stateOS3PFAntiguedadeneldomicilioanterior, setStateOS3PFAntiguedadeneldomicilioanterior] = useState("")
+	const [stateOS3PFEntrecalle1, setStateOS3PFEntrecalle1] = useState("")
+	const [stateOS3PFEntrecalle2, setStateOS3PFEntrecalle2] = useState("")
+	const [stateOS3PFAENombre, setStateOS3PFAENombre] = useState("")
+	const [stateOS3PFAEApellidoPaterno, setStateOS3PFAEApellidoPaterno] = useState("")
+	const [stateOS3PFAEApellidoMaterno, setStateOS3PFAEApellidoMaterno] = useState("")
+	const [stateOS3PFAEFechadenacimiento, setStateOS3PFAEFechadenacimiento] = useState("")
+	const [stateOS3PFAEPaisdenacimiento, setStateOS3PFAEPaisdenacimiento] = useState("")
+	const [stateOS3PFAEEstadodeNacimiento, setStateOS3PFAEEstadodeNacimiento] = useState("")
+	const [stateOS3PFAEGenero, setStateOS3PFAEGenero] = useState("")
+	const [stateOS3PFAERFC, setStateOS3PFAERFC] = useState("")
+	const [stateOS3PFAECURP, setStateOS3PFAECURP] = useState("")
+	const [stateOS3PFAEFolioID, setStateOS3PFAEFolioID] = useState("")
+	const [stateOS3PFAENacionalidad, setStateOS3PFAENacionalidad] = useState("")
+	const [stateOS3PFAECalidadmigratoria, setStateOS3PFAECalidadmigratoria] = useState("")
+	const [stateOS3PFAECorreoelectronico, setStateOS3PFAECorreoelectronico] = useState("")
+	const [stateOS3PFAETelefono, setStateOS3PFAETelefono] = useState("")
+	const [stateOS3PFAECelular, setStateOS3PFAECelular] = useState("")
+	const [stateOS3PFAEMenoresde23anosquedependen, setStateOS3PFAEMenoresde23anosquedependen] = useState("")
+	const [stateOS3PFAETotaldedependientes, setStateOS3PFAETotaldedependientes] = useState("")
+	const [stateOS3PFAERelacionconelsolicitante, setStateOS3PFAERelacionconelsolicitante] = useState("")
+	const [stateOS3PFAERelacionadoramajudicialGobiernoLegislativa, setStateOS3PFAERelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [stateOS3PFAETienemasdeunpaisderesidencia, setStateOS3PFAETienemasdeunpaisderesidencia] = useState("")
+	const [stateOS3PFAETieneoadquiriolaresidenciadelosEUA, setStateOS3PFAETieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [stateOS3PFAEElobligadoesaccionistauobligadodeotraempresa, setStateOS3PFAEElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [stateOS3PFAEEsobligadoofiadordeotraempresaoPFAE, setStateOS3PFAEEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [stateOS3PFAENumeroInterior, setStateOS3PFAENumeroInterior] = useState("")
+	const [stateOS3PFAEPiso, setStateOS3PFAEPiso] = useState("")
+	const [stateOS3PFAEPais, setStateOS3PFAEPais] = useState("")
+	const [stateOS3PFAECP, setStateOS3PFAECP] = useState("")
+	const [stateOS3PFAEColonia, setStateOS3PFAEColonia] = useState("")
+	const [stateOS3PFAEDelegacionMunicipio, setStateOS3PFAEDelegacionMunicipio] = useState("")
+	const [stateOS3PFAEEstado, setStateOS3PFAEEstado] = useState("")
+	const [stateOS3PFAETipodeDomicilio, setStateOS3PFAETipodeDomicilio] = useState("")
+	const [stateOS3PFAETipodevivienda, setStateOS3PFAETipodevivienda] = useState("")
+	const [stateOS3PFAEAntiguedadeneldomicilioactual, setStateOS3PFAEAntiguedadeneldomicilioactual] = useState("")
+	const [stateOS3PFAEAntiguedadeneldomicilioanterior, setStateOS3PFAEAntiguedadeneldomicilioanterior] = useState("")
+	const [stateOS3PFAEEntrecalle1, setStateOS3PFAEEntrecalle1] = useState("")
+	const [stateOS3PFAEEntrecalle2, setStateOS3PFAEEntrecalle2] = useState("")
+	const [stateOS3PFAEImportarexportar, setStateOS3PFAEImportarexportar] = useState("")
+	const [stateOS3PFAESector, setStateOS3PFAESector] = useState("")
+	const [stateOS3PFAEGiro, setStateOS3PFAEGiro] = useState("")
+	const [stateOS3PFAEActividad, setStateOS3PFAEActividad] = useState("")
+	const [stateOS3PFAEFechadealtaenSHCP, setStateOS3PFAEFechadealtaenSHCP] = useState("")
+	const [stateOS3PFAENumerodesucursales, setStateOS3PFAENumerodesucursales] = useState("")
+	const [stateOS3PFAEAnosdeexperienciaenelsector, setStateOS3PFAEAnosdeexperienciaenelsector] = useState("")
+	const [stateOS3PMRazonsocial, setStateOS3PMRazonsocial] = useState("")
+	const [stateOS3PMRFC, setStateOS3PMRFC] = useState("")
+	const [stateOS3PMCorreoelectronico, setStateOS3PMCorreoelectronico] = useState("")
+	const [stateOS3PMFechadealtaenSHCP, setStateOS3PMFechadealtaenSHCP] = useState("")
+	const [stateOS3PMRelacionadoramajudicialGobiernoLegislativa, setStateOS3PMRelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [stateOS3PMTienemasdeunpaisderesidencia, setStateOS3PMTienemasdeunpaisderesidencia] = useState("")
+	const [stateOS3PMTieneoadquiriolaresidenciadelosEUA, setStateOS3PMTieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [stateOS3PMElobligadoesaccionistauobligadodeotraempresa, setStateOS3PMElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [stateOS3PMEsobligadoofiadordeotraempresaoPFAE, setStateOS3PMEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [stateOS3PMNombrecompleto, setStateOS3PMNombrecompleto] = useState("")
+	const [stateOS3PMCargo, setStateOS3PMCargo] = useState("")
+	const [stateOS3PMTelefono, setStateOS3PMTelefono] = useState("")
+	const [stateOS3PMCalle, setStateOS3PMCalle] = useState("")
+	const [stateOS3PMNumeroexterior, setStateOS3PMNumeroexterior] = useState("")
+	const [stateOS3PMNumerointerior, setStateOS3PMNumerointerior] = useState("")
+	const [stateOS3PMPiso, setStateOS3PMPiso] = useState("")
+	const [stateOS3PMPais, setStateOS3PMPais] = useState("")
+	const [stateOS3PMCP, setStateOS3PMCP] = useState("")
+	const [stateOS3PMColonia, setStateOS3PMColonia] = useState("")
+	const [stateOS3PMDelegacionMunicipio, setStateOS3PMDelegacionMunicipio] = useState("")
+	const [stateOS3PMEstado, setStateOS3PMEstado] = useState("")
+	const [stateOS3PMTipodeDomicilio, setStateOS3PMTipodeDomicilio] = useState("")
+	const [stateOS3PMTipodevivienda, setStateOS3PMTipodevivienda] = useState("")
+	const [stateOS3PMEntrecalle1, setStateOS3PMEntrecalle1] = useState("")
+	const [stateOS3PMEntrecalle2, setStateOS3PMEntrecalle2] = useState("")
+	const [stateOS3PMImportarexportar, setStateOS3PMImportarexportar] = useState("")
+	const [stateOS3PMSector, setStateOS3PMSector] = useState("")
+	const [stateOS3PMGiro, setStateOS3PMGiro] = useState("")
+	const [stateOS3PMActividad, setStateOS3PMActividad] = useState("")
+	const [stateOS3PMNumerodesucursales, setStateOS3PMNumerodesucursales] = useState("")
+	const [stateOS3PMAnosdeexperienciaenelsector, setStateOS3PMAnosdeexperienciaenelsector] = useState("")
+	const [stateOS4PFNombre, setStateOS4PFNombre] = useState("")
+	const [stateOS4PFApellidoPaterno, setStateOS4PFApellidoPaterno] = useState("")
+	const [stateOS4PFApellidoMaterno, setStateOS4PFApellidoMaterno] = useState("")
+	const [stateOS4PFFechadenacimiento, setStateOS4PFFechadenacimiento] = useState("")
+	const [stateOS4PFPaisdenacimiento, setStateOS4PFPaisdenacimiento] = useState("")
+	const [stateOS4PFEstadodeNacimiento, setStateOS4PFEstadodeNacimiento] = useState("")
+	const [stateOS4PFGenero, setStateOS4PFGenero] = useState("")
+	const [stateOS4PFRFC, setStateOS4PFRFC] = useState("")
+	const [stateOS4PFCURP, setStateOS4PFCURP] = useState("")
+	const [stateOS4PFFolioID, setStateOS4PFFolioID] = useState("")
+	const [stateOS4PFNacionalidad, setStateOS4PFNacionalidad] = useState("")
+	const [stateOS4PFCalidadmigratoria, setStateOS4PFCalidadmigratoria] = useState("")
+	const [stateOS4PFCorreoelectronico, setStateOS4PFCorreoelectronico] = useState("")
+	const [stateOS4PFTelefono, setStateOS4PFTelefono] = useState("")
+	const [stateOS4PFCelular, setStateOS4PFCelular] = useState("")
+	const [stateOS4PFMenoresde23anosquedependen, setStateOS4PFMenoresde23anosquedependen] = useState("")
+	const [stateOS4PFTotaldedependientes, setStateOS4PFTotaldedependientes] = useState("")
+	const [stateOS4PFRelacionconelsolicitante, setStateOS4PFRelacionconelsolicitante] = useState("")
+	const [stateOS4PFRelacionadoramajudicialGobiernoLegislativa, setStateOS4PFRelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [stateOS4PFTienemasdeunpaisderesidencia, setStateOS4PFTienemasdeunpaisderesidencia] = useState("")
+	const [stateOS4PFTieneoadquiriolaresidenciadelosEUA, setStateOS4PFTieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [stateOS4PFElobligadoesaccionistauobligadodeotraempresa, setStateOS4PFElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [stateOS4PFEsobligadoofiadordeotraempresaoPFAE, setStateOS4PFEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [stateOS4PFNumeroInterior, setStateOS4PFNumeroInterior] = useState("")
+	const [stateOS4PFPiso, setStateOS4PFPiso] = useState("")
+	const [stateOS4PFPais, setStateOS4PFPais] = useState("")
+	const [stateOS4PFCP, setStateOS4PFCP] = useState("")
+	const [stateOS4PFColonia, setStateOS4PFColonia] = useState("")
+	const [stateOS4PFDelegacionMunicipio, setStateOS4PFDelegacionMunicipio] = useState("")
+	const [stateOS4PFEstado, setStateOS4PFEstado] = useState("")
+	const [stateOS4PFTipodeDomicilio, setStateOS4PFTipodeDomicilio] = useState("")
+	const [stateOS4PFTipodevivienda, setStateOS4PFTipodevivienda] = useState("")
+	const [stateOS4PFAntiguedadeneldomicilioactual, setStateOS4PFAntiguedadeneldomicilioactual] = useState("")
+	const [stateOS4PFAntiguedadeneldomicilioanterior, setStateOS4PFAntiguedadeneldomicilioanterior] = useState("")
+	const [stateOS4PFEntrecalle1, setStateOS4PFEntrecalle1] = useState("")
+	const [stateOS4PFEntrecalle2, setStateOS4PFEntrecalle2] = useState("")
+	const [stateOS4PFAENombre, setStateOS4PFAENombre] = useState("")
+	const [stateOS4PFAEApellidoPaterno, setStateOS4PFAEApellidoPaterno] = useState("")
+	const [stateOS4PFAEApellidoMaterno, setStateOS4PFAEApellidoMaterno] = useState("")
+	const [stateOS4PFAEFechadenacimiento, setStateOS4PFAEFechadenacimiento] = useState("")
+	const [stateOS4PFAEPaisdenacimiento, setStateOS4PFAEPaisdenacimiento] = useState("")
+	const [stateOS4PFAEEstadodeNacimiento, setStateOS4PFAEEstadodeNacimiento] = useState("")
+	const [stateOS4PFAEGenero, setStateOS4PFAEGenero] = useState("")
+	const [stateOS4PFAERFC, setStateOS4PFAERFC] = useState("")
+	const [stateOS4PFAECURP, setStateOS4PFAECURP] = useState("")
+	const [stateOS4PFAEFolioID, setStateOS4PFAEFolioID] = useState("")
+	const [stateOS4PFAENacionalidad, setStateOS4PFAENacionalidad] = useState("")
+	const [stateOS4PFAECalidadmigratoria, setStateOS4PFAECalidadmigratoria] = useState("")
+	const [stateOS4PFAECorreoelectronico, setStateOS4PFAECorreoelectronico] = useState("")
+	const [stateOS4PFAETelefono, setStateOS4PFAETelefono] = useState("")
+	const [stateOS4PFAECelular, setStateOS4PFAECelular] = useState("")
+	const [stateOS4PFAEMenoresde23anosquedependen, setStateOS4PFAEMenoresde23anosquedependen] = useState("")
+	const [stateOS4PFAETotaldedependientes, setStateOS4PFAETotaldedependientes] = useState("")
+	const [stateOS4PFAERelacionconelsolicitante, setStateOS4PFAERelacionconelsolicitante] = useState("")
+	const [stateOS4PFAERelacionadoramajudicialGobiernoLegislativa, setStateOS4PFAERelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [stateOS4PFAETienemasdeunpaisderesidencia, setStateOS4PFAETienemasdeunpaisderesidencia] = useState("")
+	const [stateOS4PFAETieneoadquiriolaresidenciadelosEUA, setStateOS4PFAETieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [stateOS4PFAEElobligadoesaccionistauobligadodeotraempresa, setStateOS4PFAEElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [stateOS4PFAEEsobligadoofiadordeotraempresaoPFAE, setStateOS4PFAEEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [stateOS4PFAENumeroInterior, setStateOS4PFAENumeroInterior] = useState("")
+	const [stateOS4PFAEPiso, setStateOS4PFAEPiso] = useState("")
+	const [stateOS4PFAEPais, setStateOS4PFAEPais] = useState("")
+	const [stateOS4PFAECP, setStateOS4PFAECP] = useState("")
+	const [stateOS4PFAEColonia, setStateOS4PFAEColonia] = useState("")
+	const [stateOS4PFAEDelegacionMunicipio, setStateOS4PFAEDelegacionMunicipio] = useState("")
+	const [stateOS4PFAEEstado, setStateOS4PFAEEstado] = useState("")
+	const [stateOS4PFAETipodeDomicilio, setStateOS4PFAETipodeDomicilio] = useState("")
+	const [stateOS4PFAETipodevivienda, setStateOS4PFAETipodevivienda] = useState("")
+	const [stateOS4PFAEAntiguedadeneldomicilioactual, setStateOS4PFAEAntiguedadeneldomicilioactual] = useState("")
+	const [stateOS4PFAEAntiguedadeneldomicilioanterior, setStateOS4PFAEAntiguedadeneldomicilioanterior] = useState("")
+	const [stateOS4PFAEEntrecalle1, setStateOS4PFAEEntrecalle1] = useState("")
+	const [stateOS4PFAEEntrecalle2, setStateOS4PFAEEntrecalle2] = useState("")
+	const [stateOS4PFAEImportarexportar, setStateOS4PFAEImportarexportar] = useState("")
+	const [stateOS4PFAESector, setStateOS4PFAESector] = useState("")
+	const [stateOS4PFAEGiro, setStateOS4PFAEGiro] = useState("")
+	const [stateOS4PFAEActividad, setStateOS4PFAEActividad] = useState("")
+	const [stateOS4PFAEFechadealtaenSHCP, setStateOS4PFAEFechadealtaenSHCP] = useState("")
+	const [stateOS4PFAENumerodesucursales, setStateOS4PFAENumerodesucursales] = useState("")
+	const [stateOS4PFAEAnosdeexperienciaenelsector, setStateOS4PFAEAnosdeexperienciaenelsector] = useState("")
+	const [stateOS4PMRazonsocial, setStateOS4PMRazonsocial] = useState("")
+	const [stateOS4PMRFC, setStateOS4PMRFC] = useState("")
+	const [stateOS4PMCorreoelectronico, setStateOS4PMCorreoelectronico] = useState("")
+	const [stateOS4PMFechadealtaenSHCP, setStateOS4PMFechadealtaenSHCP] = useState("")
+	const [stateOS4PMRelacionadoramajudicialGobiernoLegislativa, setStateOS4PMRelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [stateOS4PMTienemasdeunpaisderesidencia, setStateOS4PMTienemasdeunpaisderesidencia] = useState("")
+	const [stateOS4PMTieneoadquiriolaresidenciadelosEUA, setStateOS4PMTieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [stateOS4PMElobligadoesaccionistauobligadodeotraempresa, setStateOS4PMElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [stateOS4PMEsobligadoofiadordeotraempresaoPFAE, setStateOS4PMEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [stateOS4PMNombrecompleto, setStateOS4PMNombrecompleto] = useState("")
+	const [stateOS4PMCargo, setStateOS4PMCargo] = useState("")
+	const [stateOS4PMTelefono, setStateOS4PMTelefono] = useState("")
+	const [stateOS4PMCalle, setStateOS4PMCalle] = useState("")
+	const [stateOS4PMNumeroexterior, setStateOS4PMNumeroexterior] = useState("")
+	const [stateOS4PMNumerointerior, setStateOS4PMNumerointerior] = useState("")
+	const [stateOS4PMPiso, setStateOS4PMPiso] = useState("")
+	const [stateOS4PMPais, setStateOS4PMPais] = useState("")
+	const [stateOS4PMCP, setStateOS4PMCP] = useState("")
+	const [stateOS4PMColonia, setStateOS4PMColonia] = useState("")
+	const [stateOS4PMDelegacionMunicipio, setStateOS4PMDelegacionMunicipio] = useState("")
+	const [stateOS4PMEstado, setStateOS4PMEstado] = useState("")
+	const [stateOS4PMTipodeDomicilio, setStateOS4PMTipodeDomicilio] = useState("")
+	const [stateOS4PMTipodevivienda, setStateOS4PMTipodevivienda] = useState("")
+	const [stateOS4PMEntrecalle1, setStateOS4PMEntrecalle1] = useState("")
+	const [stateOS4PMEntrecalle2, setStateOS4PMEntrecalle2] = useState("")
+	const [stateOS4PMImportarexportar, setStateOS4PMImportarexportar] = useState("")
+	const [stateOS4PMSector, setStateOS4PMSector] = useState("")
+	const [stateOS4PMGiro, setStateOS4PMGiro] = useState("")
+	const [stateOS4PMActividad, setStateOS4PMActividad] = useState("")
+	const [stateOS4PMNumerodesucursales, setStateOS4PMNumerodesucursales] = useState("")
+	const [stateOS4PMAnosdeexperienciaenelsector, setStateOS4PMAnosdeexperienciaenelsector] = useState("")
+	const [stateOS5PFNombre, setStateOS5PFNombre] = useState("")
+	const [stateOS5PFApellidoPaterno, setStateOS5PFApellidoPaterno] = useState("")
+	const [stateOS5PFApellidoMaterno, setStateOS5PFApellidoMaterno] = useState("")
+	const [stateOS5PFFechadenacimiento, setStateOS5PFFechadenacimiento] = useState("")
+	const [stateOS5PFPaisdenacimiento, setStateOS5PFPaisdenacimiento] = useState("")
+	const [stateOS5PFEstadodeNacimiento, setStateOS5PFEstadodeNacimiento] = useState("")
+	const [stateOS5PFGenero, setStateOS5PFGenero] = useState("")
+	const [stateOS5PFRFC, setStateOS5PFRFC] = useState("")
+	const [stateOS5PFCURP, setStateOS5PFCURP] = useState("")
+	const [stateOS5PFFolioID, setStateOS5PFFolioID] = useState("")
+	const [stateOS5PFNacionalidad, setStateOS5PFNacionalidad] = useState("")
+	const [stateOS5PFCalidadmigratoria, setStateOS5PFCalidadmigratoria] = useState("")
+	const [stateOS5PFCorreoelectronico, setStateOS5PFCorreoelectronico] = useState("")
+	const [stateOS5PFTelefono, setStateOS5PFTelefono] = useState("")
+	const [stateOS5PFCelular, setStateOS5PFCelular] = useState("")
+	const [stateOS5PFMenoresde23anosquedependen, setStateOS5PFMenoresde23anosquedependen] = useState("")
+	const [stateOS5PFTotaldedependientes, setStateOS5PFTotaldedependientes] = useState("")
+	const [stateOS5PFRelacionconelsolicitante, setStateOS5PFRelacionconelsolicitante] = useState("")
+	const [stateOS5PFRelacionadoramajudicialGobiernoLegislativa, setStateOS5PFRelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [stateOS5PFTienemasdeunpaisderesidencia, setStateOS5PFTienemasdeunpaisderesidencia] = useState("")
+	const [stateOS5PFTieneoadquiriolaresidenciadelosEUA, setStateOS5PFTieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [stateOS5PFElobligadoesaccionistauobligadodeotraempresa, setStateOS5PFElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [stateOS5PFEsobligadoofiadordeotraempresaoPFAE, setStateOS5PFEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [stateOS5PFNumeroInterior, setStateOS5PFNumeroInterior] = useState("")
+	const [stateOS5PFPiso, setStateOS5PFPiso] = useState("")
+	const [stateOS5PFPais, setStateOS5PFPais] = useState("")
+	const [stateOS5PFCP, setStateOS5PFCP] = useState("")
+	const [stateOS5PFColonia, setStateOS5PFColonia] = useState("")
+	const [stateOS5PFDelegacionMunicipio, setStateOS5PFDelegacionMunicipio] = useState("")
+	const [stateOS5PFEstado, setStateOS5PFEstado] = useState("")
+	const [stateOS5PFTipodeDomicilio, setStateOS5PFTipodeDomicilio] = useState("")
+	const [stateOS5PFTipodevivienda, setStateOS5PFTipodevivienda] = useState("")
+	const [stateOS5PFAntiguedadeneldomicilioactual, setStateOS5PFAntiguedadeneldomicilioactual] = useState("")
+	const [stateOS5PFAntiguedadeneldomicilioanterior, setStateOS5PFAntiguedadeneldomicilioanterior] = useState("")
+	const [stateOS5PFEntrecalle1, setStateOS5PFEntrecalle1] = useState("")
+	const [stateOS5Entrecalle2, setStateOS5PFEntrecalle2] = useState("")
+	const [stateOS5PFAENombre, setStateOS5PFAENombre] = useState("")
+	const [stateOS5PFAEApellidoPaterno, setStateOS5PFAEApellidoPaterno] = useState("")
+	const [stateOS5PFAEApellidoMaterno, setStateOS5PFAEApellidoMaterno] = useState("")
+	const [stateOS5PFAEFechadenacimiento, setStateOS5PFAEFechadenacimiento] = useState("")
+	const [stateOS5PFAEPaisdenacimiento, setStateOS5PFAEPaisdenacimiento] = useState("")
+	const [stateOS5PFAEEstadodeNacimiento, setStateOS5PFAEEstadodeNacimiento] = useState("")
+	const [stateOS5PFAEGenero, setStateOS5PFAEGenero] = useState("")
+	const [stateOS5PFAERFC, setStateOS5PFAERFC] = useState("")
+	const [stateOS5PFAECURP, setStateOS5PFAECURP] = useState("")
+	const [stateOS5PFAEFolioID, setStateOS5PFAEFolioID] = useState("")
+	const [stateOS5PFAENacionalidad, setStateOS5PFAENacionalidad] = useState("")
+	const [stateOS5PFAECalidadmigratoria, setStateOS5PFAECalidadmigratoria] = useState("")
+	const [stateOS5PFAECorreoelectronico, setStateOS5PFAECorreoelectronico] = useState("")
+	const [stateOS5PFAETelefono, setStateOS5PFAETelefono] = useState("")
+	const [stateOS5PFAECelular, setStateOS5PFAECelular] = useState("")
+	const [stateOS5PFAEMenoresde23anosquedependen, setStateOS5PFAEMenoresde23anosquedependen] = useState("")
+	const [stateOS5PFAETotaldedependientes, setStateOS5PFAETotaldedependientes] = useState("")
+	const [stateOS5PFAERelacionconelsolicitante, setStateOS5PFAERelacionconelsolicitante] = useState("")
+	const [stateOS5PFAERelacionadoramajudicialGobiernoLegislativa, setStateOS5PFAERelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [stateOS5PFAETienemasdeunpaisderesidencia, setStateOS5PFAETienemasdeunpaisderesidencia] = useState("")
+	const [stateOS5PFAETieneoadquiriolaresidenciadelosEUA, setStateOS5PFAETieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [stateOS5PFAEElobligadoesaccionistauobligadodeotraempresa, setStateOS5PFAEElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [stateOS5PFAEEsobligadoofiadordeotraempresaoPFAE, setStateOS5PFAEEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [stateOS5PFAENumeroInterior, setStateOS5PFAENumeroInterior] = useState("")
+	const [stateOS5PFAEPiso, setStateOS5PFAEPiso] = useState("")
+	const [stateOS5PFAEPais, setStateOS5PFAEPais] = useState("")
+	const [stateOS5PFAECP, setStateOS5PFAECP] = useState("")
+	const [stateOS5PFAEColonia, setStateOS5PFAEColonia] = useState("")
+	const [stateOS5PFAEDelegacionMunicipio, setStateOS5PFAEDelegacionMunicipio] = useState("")
+	const [stateOS5PFAEEstado, setStateOS5PFAEEstado] = useState("")
+	const [stateOS5PFAETipodeDomicilio, setStateOS5PFAETipodeDomicilio] = useState("")
+	const [stateOS5PFAETipodevivienda, setStateOS5PFAETipodevivienda] = useState("")
+	const [stateOS5PFAEAntiguedadeneldomicilioactual, setStateOS5PFAEAntiguedadeneldomicilioactual] = useState("")
+	const [stateOS5PFAEAntiguedadeneldomicilioanterior, setStateOS5PFAEAntiguedadeneldomicilioanterior] = useState("")
+	const [stateOS5PFAEEntrecalle1, setStateOS5PFAEEntrecalle1] = useState("")
+	const [stateOS5PFAEEntrecalle2, setStateOS5PFAEEntrecalle2] = useState("")
+	const [stateOS5PFAEImportarexportar, setStateOS5PFAEImportarexportar] = useState("")
+	const [stateOS5PFAESector, setStateOS5PFAESector] = useState("")
+	const [stateOS5PFAEGiro, setStateOS5PFAEGiro] = useState("")
+	const [stateOS5PFAEActividad, setStateOS5PFAEActividad] = useState("")
+	const [stateOS5PFAEFechadealtaenSHCP, setStateOS5PFAEFechadealtaenSHCP] = useState("")
+	const [stateOS5PFAENumerodesucursales, setStateOS5PFAENumerodesucursales] = useState("")
+	const [stateOS5PFAEAnosdeexperienciaenelsector, setStateOS5PFAEAnosdeexperienciaenelsector] = useState("")
+	const [stateOS5PMRazonsocial, setStateOS5PMRazonsocial] = useState("")
+	const [stateOS5PMRFC, setStateOS5PMRFC] = useState("")
+	const [stateOS5PMCorreoelectronico, setStateOS5PMCorreoelectronico] = useState("")
+	const [stateOS5PMFechadealtaenSHCP, setStateOS5PMFechadealtaenSHCP] = useState("")
+	const [stateOS5PMRelacionadoramajudicialGobiernoLegislativa, setStateOS5PMRelacionadoramajudicialGobiernoLegislativa] = useState("")
+	const [stateOS5PMTienemasdeunpaisderesidencia, setStateOS5PMTienemasdeunpaisderesidencia] = useState("")
+	const [stateOS5PMTieneoadquiriolaresidenciadelosEUA, setStateOS5PMTieneoadquiriolaresidenciadelosEUA] = useState("")
+	const [stateOS5PMElobligadoesaccionistauobligadodeotraempresa, setStateOS5PMElobligadoesaccionistauobligadodeotraempresa] = useState("")
+	const [stateOS5PMEsobligadoofiadordeotraempresaoPFAE, setStateOS5PMEsobligadoofiadordeotraempresaoPFAE] = useState("")
+	const [stateOS5PMNombrecompleto, setStateOS5PMNombrecompleto] = useState("")
+	const [stateOS5PMCargo, setStateOS5PMCargo] = useState("")
+	const [stateOS5PMTelefono, setStateOS5PMTelefono] = useState("")
+	const [stateOS5PMCalle, setStateOS5PMCalle] = useState("")
+	const [stateOS5PMNumeroexterior, setStateOS5PMNumeroexterior] = useState("")
+	const [stateOS5PMNumerointerior, setStateOS5PMNumerointerior] = useState("")
+	const [stateOS5PMPiso, setStateOS5PMPiso] = useState("")
+	const [stateOS5PMPais, setStateOS5PMPais] = useState("")
+	const [stateOS5PMCP, setStateOS5PMCP] = useState("")
+	const [stateOS5PMColonia, setStateOS5PMColonia] = useState("")
+	const [stateOS5PMDelegacionMunicipio, setStateOS5PMDelegacionMunicipio] = useState("")
+	const [stateOS5PMEstado, setStateOS5PMEstado] = useState("")
+	const [stateOS5PMTipodeDomicilio, setStateOS5PMTipodeDomicilio] = useState("")
+	const [stateOS5PMTipodevivienda, setStateOS5PMTipodevivienda] = useState("")
+	const [stateOS5PMEntrecalle1, setStateOS5PMEntrecalle1] = useState("")
+	const [stateOS5PMEntrecalle2, setStateOS5PMEntrecalle2] = useState("")
+	const [stateOS5PMImportarexportar, setStateOS5PMImportarexportar] = useState("")
+	const [stateOS5PMSector, setStateOS5PMSector] = useState("")
+	const [stateOS5PMGiro, setStateOS5PMGiro] = useState("")
+	const [stateOS5PMActividad, setStateOS5PMActividad] = useState("")
+	const [stateOS5PMNumerodesucursales, setStateOS5PMNumerodesucursales] = useState("")
+	const [stateOS5PMAnosdeexperienciaenelsector, setStateOS5PMAnosdeexperienciaenelsector] = useState("")
+	const [stateTieneunatarjetadecredito, setStateTieneunatarjetadecredito] = useState("")
+	const [stateDigitalosultimos4numeros, setStateDigitalosultimos4numeros] = useState("")
+	const [stateErestitulardeuncreditohipotecario, setStateErestitulardeuncreditohipotecario] = useState("")
+	const [stateHasidotitulardeuncreditoautomotrizenlosultimos24meses, setStateHasidotitulardeuncreditoautomotrizenlosultimos24meses] = useState("")
+	const [stateHoySiendoDia, setStateHoySiendoDia] = useState("")
+
+
+
+
+
+
+
+
+
+
+--------------------------------PATRIMONIO
+const [stateNumerosdebienesapresentar, setStateNumerosdebienesapresentar] = ("")
+const [stateTotaldelvalorestimado, setStateTotaldelvalorestimado] = ("")
+const [stateUbicacion, setStateUbicacion] = ("")
+const [stateSuperficieM2, setStateSuperficieM2] = ("")
+const [stateDescriciondelinmueble, setStateDescriciondelinmueble] = ("")
+const [stateValormanifestado, setStateValormanifestado] = ("")
+const [stateValorpredial, setStateValorpredial] = ("")
+const [stateDatosderegistro, setStateDatosderegistro] = ("")
+const [stateNombredelproducto, setStateNombredelproducto] = ("")
+const [stateRegimendelacuentaMancomunadaoIndistinta, setStateRegimendelacuentaMancomunadaoIndistinta] = ("")
+const [stateNombredelapoderadomancomunado, setStateNombredelapoderadomancomunado] = ("")
+const [stateNombredelapoderadomancomunado2, setStateNombredelapoderadomancomunado2] = ("")
+const [stateEstatusFATCACRS, setStateEstatusFATCACRS] = ("")
+const [stateCFDI, setStateCFDI] = ("")
+const [stateEntregadeCorrespondencia, setStateEntregadeCorrespondencia] = ("")
+const [stateMontodeReferenciadelaInversion, setStateMontodeReferenciadelaInversion] = ("")
+const [stateSerequiereelenvioyrecepciondetransferenciasdefondosatravesdeSPID, setStateSerequiereelenvioyrecepciondetransferenciasdefondosatravesdeSPID] = ("")
+const [stateRequiereChequera, setStateRequiereChequera] = ("")
+const [stateRequiereTarjetadeDebito, setStateRequiereTarjetadeDebito] = ("")
+const [stateIdentificadordeBancaElectronicaNuevoExistenteoSinBanca, setStateIdentificadordeBancaElectronicaNuevoExistenteoSinBanca] = ("")
+const [stateServiciodeBancaElectronica, setStateServiciodeBancaElectronica] = ("")
+const [stateBancaElectronicaBEPoBEM, setStateBancaElectronicaBEPoBEM] = ("")
+const [statePlan, setStatePlan] = ("")
+const [stateTipoCobro, setStateTipoCobro] = ("")
+const [stateCuentacargo, setStateCuentacargo] = ("")
+const [stateOperacionMancumunadaparaBancaElectronica, setStateOperacionMancumunadaparaBancaElectronica] = ("")
+const [stateOperacionMancumunadaparalibramientodecheques, setStateOperacionMancumunadaparalibramientodecheques] = ("")

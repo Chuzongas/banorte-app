@@ -351,6 +351,18 @@ span {
     text-align: right;
 }
 
+.formulario input {
+    min-width: 166px;
+}
+
+.formulario input[type="checkbox"] {
+    min-width: auto;
+}
+
+.formulario select {
+    min-width: 166px;
+}
+
 .top-formulario {
     height: 140px;
     position: relative;
@@ -372,4 +384,28 @@ span {
     background-color: black;
     filter: brightness(0.7);
     z-index: -1;
+}
+
+.felicidades {
+    width: 50%;
+    background-image: url(./img/credito/creditoAprovado.jpg);
+    background-size: cover;
+}
+
+.navigation::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.navigation::-webkit-scrollbar-thumb {
+    background: var(--gray-color-2) !important;
+}
+
+.navigation::-webkit-scrollbar-track {
+    background-color: transparent !important;
+}
+
+.navbarhistorialcrediticio {
+    background-image: url(./img/patterns/pattern.jpg);
+    background-size: cover;
 }

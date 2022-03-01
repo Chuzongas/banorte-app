@@ -1,1 +1,1 @@
-export const proxy = 'http://200.57.183.166:8280'
+export const proxy = 'https://ksms.mx'

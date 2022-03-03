@@ -274,6 +274,10 @@ const SectionOne = () => {
 
 	}
 
+	const cancelarSolicitud = () => {
+		setSteps(4)
+	}
+
 	const guardarDatosTemporalesAutoServicio = () => {
 
 		// IF TRUE  === PM
@@ -322,27 +326,75 @@ const SectionOne = () => {
 		} else {
 			// PFAE
 
+			var m = curp.match(/^\w{4}(\w{2})(\w{2})(\w{2})/);
+			var anyo = parseInt(m[1], 10) + 1900;
+			if (anyo < 1950) anyo += 100;
+			var mes = parseInt(m[2], 10) - 1;
+			var dia = parseInt(m[3], 10);
+			var cumpleanos = new Date(anyo, mes, dia);
+			var hoy = new Date();
+			var edad = hoy.getFullYear() - cumpleanos.getFullYear();
+			var mEdad = hoy.getMonth() - cumpleanos.getMonth();
+			var genero = curp[10] == "H" ? 1 : 2;
+
+			if (mEdad < 0 || (mEdad === 0 && hoy.getDate() < cumpleanos.getDate())) {
+				edad--;
+			}
+
+
+			mes = mes + 1
+
+
 			let data = {
 				idSector: sectorNegocio,
 				idAnioNegocio: aniosTuNegocio,
 				idTipoMotivoCredito: paraQueCredito,
-				idTipoPersona: 1, //PFAE
-				idTipoDeParticipante: 1, //DEFAULT
-				razonSocial: razonSocial,
+				idTipoPersona: 1,
+				idTipoDeParticipante: 1,
 				rfc: rfc,
 				cuentaCheques: tienesChequesBanorte,
 				numeroCuentaCheques: chequeBanorte,
 				clienteBanorte: clienteBanorte,
-				razonSocial: razonSocial,
+				nombre: nombre.toUpperCase(),
+				apellidoPaterno: apellidoPaterno.toUpperCase(),
+				apellidoMaterno: apellidoMaterno.toUpperCase(),
+				curp: curp,
+				diaNacimiento: dia,
+				mesNacimiento: mes,
+				anioNacimiento: anyo,
+				fechaNacimientoStr: dia + "-" + mes + "-" + anyo,
+				idGenero: genero,
 			}
+
+			// PEZCA MINERIA
+			if (sectorNegocio === "1" || sectorNegocio === "2") {
+				cancelarSolicitud()
+				return
+			}
+
+			// NEGOCIO MENOR A 2 ANIOS
+			if (aniosTuNegocio === "1") {
+				cancelarSolicitud()
+				return
+			}
+
+			// MENOR A 25 ANIOS O MAYOR A 75
+			if (edad < 25 || edad > 75) {
+				cancelarSolicitud()
+				return
+			}
+
 
 			var config = {
 				method: 'post',
-				url: `${proxy}/banortepyme/rest/salvarClienteAutoservicio?idSector=${data.idSector}&idAnioNegocio=${data.idAnioNegocio}&idTipoMotivoCredito=${data.idTipoMotivoCredito}&idTipoPersona=${data.idTipoPersona}&idTipoDeParticipante=${data.idTipoDeParticipante}&razonSocial=${data.razonSocial}&rfc=${data.rfc}&cuentaCheques=${data.cuentaCheques}&numeroCuentaCheques=${data.numeroCuentaCheques}&clienteBanorte=${data.clienteBanorte}&razonSocial=${data.razonSocial}`,
+				url: `${proxy}/banortepyme/rest/salvarClienteAutoservicio?idSector=${data.idSector}&idAnioNegocio=${data.idAnioNegocio}&idTipoMotivoCredito=${data.idTipoMotivoCredito}&idTipoPersona=${data.idTipoPersona}&idTipoDeParticipante=${data.idTipoDeParticipante}&rfc=${data.rfc}&cuentaCheques=${data.cuentaCheques}&numeroCuentaCheques=${data.numeroCuentaCheques}&clienteBanorte=${data.clienteBanorte}&nombre=${data.nombre}&apellidoPaterno=${data.apellidoPaterno}&apellidoMaterno=${data.apellidoMaterno}&curp=${data.curp}&diaNacimiento=${data.diaNacimiento}&mesNacimiento=${data.mesNacimiento}&anioNacimiento=${data.anioNacimiento}&fechaNacimientoStr=${data.fechaNacimientoStr}&idGenero=${data.idGenero}`,
 				headers: {
-					// 'Cookie': 'banorteAuto=RWWyXFWdN4XqwIs+RU6tZq2p.c85ae8bd-4808-34a7-aeeb-04c09c4b9635'
+					// 'Cookie': 'banorteAuto=e5q7Qg2LMRmDUUHz7+YFzEHO.c85ae8bd-4808-34a7-aeeb-04c09c4b9635'
 				}
 			};
+
+			console.log(config)
+
 
 			axios(config)
 				.then(function (response) {
@@ -417,7 +469,14 @@ const SectionOne = () => {
 							visible &&
 							<animated.div style={style}>
 								<div className="section-one-dinamic" style={{ width: '75%', position: 'relative' }}>
-									<div className='bgc-red' style={{ height: '5px', width: `${((steps + 1) / 3) * 100}%`, transition:'all 1s ease' }} />
+									{
+										steps === 3 || steps === 4 &&
+										<div className='bgc-red' style={{ height: '5px', width: "100%", transition: 'all 1s ease' }} />
+									}
+									{
+										steps !== 3 && steps !== 4 &&
+										<div className='bgc-red' style={{ height: '5px', width: `${((steps + 1) / 3) * 100}%`, transition: 'all 1s ease' }} />
+									}
 									<div className='bgc-white' style={{ height: '5px', width: '100%', position: 'absolute', zIndex: '-1', top: '0px' }} />
 									{
 										steps === 0 &&
@@ -590,7 +649,7 @@ const SectionOne = () => {
 													<input type="text" maxLength={1} ref={inputFourRef} onKeyDown={(e) => deleteCharacter(e, inputThreeRef)} onChange={(e) => checkInputValid(e.target.value, setInputFour, inputFiveRef)} value={inputFour} style={{ width: '48px', fontSize: '24px', textAlign: 'center' }} />
 													<input type="text" maxLength={1} ref={inputFiveRef} onKeyDown={(e) => deleteCharacter(e, inputFourRef)} onChange={(e) => checkInputValid(e.target.value, setInputFive, null)} value={inputFive} style={{ width: '48px', fontSize: '24px', textAlign: 'center' }} />
 												</div>
-												<p style={{ marginBottom: '4px' }}><a href="#">No he recibido mi código</a></p>
+												<p style={{ marginBottom: '4px' }}><button type='submit' className='color-blue' style={{ backgroundColor: 'transparent', border: '0px' }} >No he recibido mi código</button></p>
 												<div style={{ width: '100%' }}>
 													<button type="button" onClick={() => verificarCodigoSMS()} style={{ width: '100%' }} className='bgc-red'>Siguiente</button>
 												</div>
@@ -645,6 +704,20 @@ const SectionOne = () => {
 											</div>
 											<div style={{ width: '10%', display: 'grid', placeContent: 'center' }}>
 												<i onClick={() => handleChangeOferta(true)} style={{ fontSize: '38px' }} className="ri-arrow-right-s-line pointer"></i>
+											</div>
+										</div>
+									}
+									{
+										steps === 4 &&
+										<div className='bgc-white' style={{ padding: '24px', display: 'flex', flexFlow: 'row', alignItems: 'center' }}>
+											<div style={{ width: '100%' }}>
+												<div className='radius-super bgc-red white' style={{ height: '40px', width: '40px', fontSize: '32px', display: 'grid', placeContent: 'center', margin: 'auto' }}>
+													<i className="ri-close-line"></i>
+												</div>
+												<h1 className='text-center' style={{ marginBottom: '24px' }}>Lo sentimos pero no cuenta con los requisitos minimos</h1>
+												<div style={{ width: '100%', marginTop: '24px' }}>
+													<button onClick={() => window.location.replace('/home')} style={{ width: '100%' }} className='bgc-red'>Nueva solicitud</button>
+												</div>
 											</div>
 										</div>
 									}

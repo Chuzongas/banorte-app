@@ -4,6 +4,7 @@ import CargaDocumentos from './CargaDocumentos';
 import HistorialCrediticio from './HistorialCrediticio';
 
 const FormularioPersonaMoral = ({
+	handleNextOS,
 	primerObligadoSolidario,
 	setFileFive,
 	fileFive,
@@ -1386,6 +1387,7 @@ const FormularioPersonaMoral = ({
 							</div>
 						</div>
 						<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+							<button className="bgc-red" type="submit">Siguiente</button>
 						</div>
 					</animated.div>
 				)
@@ -1441,6 +1443,7 @@ const FormularioPersonaMoral = ({
 							</div>
 						</div>
 						<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+							<button className="bgc-red" type="submit">Siguiente</button>
 						</div>
 					</animated.div>
 				)
@@ -1552,6 +1555,7 @@ const FormularioPersonaMoral = ({
 							</div>
 						</div>
 						<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+							<button className="bgc-red" type="submit">Siguiente</button>
 						</div>
 					</animated.div>
 				)
@@ -1701,6 +1705,7 @@ const FormularioPersonaMoral = ({
 							</div>
 						</div>
 						<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+							<button className="bgc-red" type="submit">Siguiente</button>
 						</div>
 					</animated.div>
 				)
@@ -2358,6 +2363,7 @@ const FormularioPersonaMoral = ({
 							</div>
 						</div>
 						<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+							<button className="bgc-red" type="submit">Siguiente</button>
 						</div>
 					</animated.div>
 				)
@@ -2628,6 +2634,7 @@ const FormularioPersonaMoral = ({
 							}
 						</div>
 						<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+							<button className="bgc-red" type="submit">Siguiente</button>
 						</div>
 					</animated.div>
 				)
@@ -3054,10 +3061,12 @@ const FormularioPersonaMoral = ({
 							</div>
 						</div>
 						<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+							<button className="bgc-red" type="submit">Siguiente</button>
 						</div>
 					</animated.div>
 				)
-			}
+			}	
+			
 			{
 				transitionEight((style, visible) =>
 					visible &&
@@ -3067,19 +3076,19 @@ const FormularioPersonaMoral = ({
 							<hr />
 							<div style={{ display: 'flex', justifyContent: 'center', gap: '24px' }}>
 								<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-									<div onClick={() => { setSegundoObligadoSolidario("PF"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+									<div onClick={() => { setSegundoObligadoSolidario("PF"); handleSeccion(true); handleNextOS(2) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 										<i style={{ fontSize: '32px' }} className="ri-user-fill"></i>
 									</div>
 									<span className="text-center">Persona física</span>
 								</div>
 								<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-									<div onClick={() => { setSegundoObligadoSolidario("PFAE"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+									<div onClick={() => { setSegundoObligadoSolidario("PFAE"); handleSeccion(true); handleNextOS(2) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 										<i style={{ fontSize: '32px' }} className="ri-user-2-fill"></i>
 									</div>
 									<span className="text-center">Persona física con actividad empresarial</span>
 								</div>
 								<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-									<div onClick={() => { setSegundoObligadoSolidario("PM"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+									<div onClick={() => { setSegundoObligadoSolidario("PM"); handleSeccion(true); handleNextOS(2) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 										<i style={{ fontSize: '32px' }} className="ri-building-4-line"></i>
 									</div>
 									<span className="text-center">Persona moral</span>
@@ -3444,6 +3453,7 @@ const FormularioPersonaMoral = ({
 									</div>
 								</div>
 								<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+									<button className="bgc-red" type="submit">Siguiente</button>
 								</div>
 							</>
 						}
@@ -3888,6 +3898,7 @@ const FormularioPersonaMoral = ({
 									</div>
 								</div>
 								<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+									<button className="bgc-red" type="submit">Siguiente</button>
 								</div>
 							</>
 						}
@@ -4201,6 +4212,7 @@ const FormularioPersonaMoral = ({
 									</div>
 								</div>
 								<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+									<button className="bgc-red" type="submit">Siguiente</button>
 								</div>
 							</>
 						}
@@ -4216,19 +4228,19 @@ const FormularioPersonaMoral = ({
 							<hr />
 							<div style={{ display: 'flex', justifyContent: 'center', gap: '24px' }}>
 								<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-									<div onClick={() => { setTercerObligadoSolidario("PF"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+									<div onClick={() => { setTercerObligadoSolidario("PF"); handleSeccion(true); handleNextOS(3) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 										<i style={{ fontSize: '32px' }} className="ri-user-fill"></i>
 									</div>
 									<span className="text-center">Persona física</span>
 								</div>
 								<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-									<div onClick={() => { setTercerObligadoSolidario("PFAE"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+									<div onClick={() => { setTercerObligadoSolidario("PFAE"); handleSeccion(true); handleNextOS(3) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 										<i style={{ fontSize: '32px' }} className="ri-user-2-fill"></i>
 									</div>
 									<span className="text-center">Persona física con actividad empresarial</span>
 								</div>
 								<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-									<div onClick={() => { setTercerObligadoSolidario("PM"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+									<div onClick={() => { setTercerObligadoSolidario("PM"); handleSeccion(true); handleNextOS(3) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 										<i style={{ fontSize: '32px' }} className="ri-building-4-line"></i>
 									</div>
 									<span className="text-center">Persona moral</span>
@@ -4593,6 +4605,7 @@ const FormularioPersonaMoral = ({
 									</div>
 								</div>
 								<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+									<button className="bgc-red" type="submit">Siguiente</button>
 								</div>
 							</>
 						}
@@ -5037,6 +5050,7 @@ const FormularioPersonaMoral = ({
 									</div>
 								</div>
 								<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+									<button className="bgc-red" type="submit">Siguiente</button>
 								</div>
 							</>
 						}
@@ -5350,6 +5364,7 @@ const FormularioPersonaMoral = ({
 									</div>
 								</div>
 								<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+									<button className="bgc-red" type="submit">Siguiente</button>
 								</div>
 							</>
 						}
@@ -5365,19 +5380,19 @@ const FormularioPersonaMoral = ({
 							<hr />
 							<div style={{ display: 'flex', justifyContent: 'center', gap: '24px' }}>
 								<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-									<div onClick={() => { setCuartoObligadoSolidario("PF"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+									<div onClick={() => { setCuartoObligadoSolidario("PF"); handleSeccion(true); handleNextOS(4) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 										<i style={{ fontSize: '32px' }} className="ri-user-fill"></i>
 									</div>
 									<span className="text-center">Persona física</span>
 								</div>
 								<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-									<div onClick={() => { setCuartoObligadoSolidario("PFAE"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+									<div onClick={() => { setCuartoObligadoSolidario("PFAE"); handleSeccion(true); handleNextOS(4) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 										<i style={{ fontSize: '32px' }} className="ri-user-2-fill"></i>
 									</div>
 									<span className="text-center">Persona física con actividad empresarial</span>
 								</div>
 								<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-									<div onClick={() => { setCuartoObligadoSolidario("PM"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+									<div onClick={() => { setCuartoObligadoSolidario("PM"); handleSeccion(true); handleNextOS(4) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 										<i style={{ fontSize: '32px' }} className="ri-building-4-line"></i>
 									</div>
 									<span className="text-center">Persona moral</span>
@@ -5742,6 +5757,7 @@ const FormularioPersonaMoral = ({
 									</div>
 								</div>
 								<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+									<button className="bgc-red" type="submit">Siguiente</button>
 								</div>
 							</>
 						}
@@ -6186,6 +6202,7 @@ const FormularioPersonaMoral = ({
 									</div>
 								</div>
 								<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+									<button className="bgc-red" type="submit">Siguiente</button>
 								</div>
 							</>
 						}
@@ -6499,6 +6516,7 @@ const FormularioPersonaMoral = ({
 									</div>
 								</div>
 								<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+									<button className="bgc-red" type="submit">Siguiente</button>
 								</div>
 							</>
 						}
@@ -6514,19 +6532,19 @@ const FormularioPersonaMoral = ({
 							<hr />
 							<div style={{ display: 'flex', justifyContent: 'center', gap: '24px' }}>
 								<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-									<div onClick={() => { setQuintoObligadoSolidario("PF"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+									<div onClick={() => { setQuintoObligadoSolidario("PF"); handleSeccion(true); handleNextOS(5) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 										<i style={{ fontSize: '32px' }} className="ri-user-fill"></i>
 									</div>
 									<span className="text-center">Persona física</span>
 								</div>
 								<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-									<div onClick={() => { setQuintoObligadoSolidario("PFAE"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+									<div onClick={() => { setQuintoObligadoSolidario("PFAE"); handleSeccion(true); handleNextOS(5) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 										<i style={{ fontSize: '32px' }} className="ri-user-2-fill"></i>
 									</div>
 									<span className="text-center">Persona física con actividad empresarial</span>
 								</div>
 								<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-									<div onClick={() => { setQuintoObligadoSolidario("PM"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+									<div onClick={() => { setQuintoObligadoSolidario("PM"); handleSeccion(true); handleNextOS(5) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 										<i style={{ fontSize: '32px' }} className="ri-building-4-line"></i>
 									</div>
 									<span className="text-center">Persona moral</span>
@@ -6891,6 +6909,7 @@ const FormularioPersonaMoral = ({
 									</div>
 								</div>
 								<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+									<button className="bgc-red" type="submit">Siguiente</button>
 								</div>
 							</>
 						}
@@ -7335,6 +7354,7 @@ const FormularioPersonaMoral = ({
 									</div>
 								</div>
 								<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+									<button className="bgc-red" type="submit">Siguiente</button>
 								</div>
 							</>
 						}
@@ -7648,6 +7668,7 @@ const FormularioPersonaMoral = ({
 									</div>
 								</div>
 								<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+									<button className="bgc-red" type="submit">Siguiente</button>
 								</div>
 							</>
 						}
@@ -7870,6 +7891,7 @@ Datos de registro */}
 							</div>
 						</div>
 						<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+							<button className="bgc-red" type="submit">Siguiente</button>
 						</div>
 					</animated.div>
 				)

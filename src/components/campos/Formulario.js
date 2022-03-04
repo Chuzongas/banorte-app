@@ -1543,6 +1543,11 @@ const Formulario = () => {
 		return true
 	}
 
+	const handleNextOS = (i) => {
+		if(cantidadObligadosSolidarios < i){
+			setCantidadObligadosSolidarios(i)
+		}
+	}
 
 	return (
 		<>
@@ -1842,7 +1847,7 @@ const Formulario = () => {
 					</div>
 					<div className="col-12 col-lg-7 formulario">
 					<div ref={refScrollUp} />
-						{/* <form onSubmit={(e) => { e.preventDefault(); handleSeccion(true) }}> */}
+						<form onSubmit={(e) => { e.preventDefault(); handleSeccion(true) }}>
 
 							{
 								transitionZero((style, visible) =>
@@ -1885,6 +1890,7 @@ const Formulario = () => {
 							{
 								tipoPersona === "PM" &&
 								<FormularioPersonaMoral
+									handleNextOS={handleNextOS}
 									primerObligadoSolidario={primerObligadoSolidario}
 									setFileFive={setFileFive}
 									fileFive={fileFive}
@@ -3322,6 +3328,7 @@ const Formulario = () => {
 													</div>
 												</div>
 												<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+													<button className="bgc-red" type="submit">Siguiente</button>
 												</div>
 											</animated.div>
 										)
@@ -3486,6 +3493,7 @@ const Formulario = () => {
 													</div>
 												</div>
 												<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+													<button className="bgc-red" type="submit">Siguiente</button>
 												</div>
 											</animated.div>
 										)
@@ -3697,6 +3705,7 @@ const Formulario = () => {
 													</div>
 												</div>
 												<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+													<button className="bgc-red" type="submit">Siguiente</button>
 												</div>
 											</animated.div>
 										)
@@ -3782,6 +3791,7 @@ const Formulario = () => {
 													</div>
 												</div>
 												<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+													<button className="bgc-red" type="submit">Siguiente</button>
 												</div>
 											</animated.div>
 										)
@@ -3853,25 +3863,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 1</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input value={bancoOne.mesUno.fields.saldoPromedio} onChange={(e) => modifyBancoOne('mesUno', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input value={bancoOne.mesUno.fields.saldoInicial} onChange={(e) => modifyBancoOne('mesUno', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input value={bancoOne.mesUno.fields.totalRetiros} onChange={(e) => modifyBancoOne('mesUno', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input value={bancoOne.mesUno.fields.totalDepositos} onChange={(e) => modifyBancoOne('mesUno', "totalDepositos", e.target.value)} type="text" required />
@@ -3881,25 +3891,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 2</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input disabled={validateMesDisabledBancoOne("mesUno")} value={bancoOne.mesDos.fields.saldoPromedio} onChange={(e) => modifyBancoOne('mesDos', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input disabled={validateMesDisabledBancoOne("mesUno")} value={bancoOne.mesDos.fields.saldoInicial} onChange={(e) => modifyBancoOne('mesDos', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input disabled={validateMesDisabledBancoOne("mesUno")} value={bancoOne.mesDos.fields.totalRetiros} onChange={(e) => modifyBancoOne('mesDos', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input disabled={validateMesDisabledBancoOne("mesUno")} value={bancoOne.mesDos.fields.totalDepositos} onChange={(e) => modifyBancoOne('mesDos', "totalDepositos", e.target.value)} type="text" required />
@@ -3908,25 +3918,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 3</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input disabled={validateMesDisabledBancoOne("mesDos")} value={bancoOne.mesTres.fields.saldoPromedio} onChange={(e) => modifyBancoOne('mesTres', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input disabled={validateMesDisabledBancoOne("mesDos")} value={bancoOne.mesTres.fields.saldoInicial} onChange={(e) => modifyBancoOne('mesTres', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input disabled={validateMesDisabledBancoOne("mesDos")} value={bancoOne.mesTres.fields.totalRetiros} onChange={(e) => modifyBancoOne('mesTres', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input disabled={validateMesDisabledBancoOne("mesDos")} value={bancoOne.mesTres.fields.totalDepositos} onChange={(e) => modifyBancoOne('mesTres', "totalDepositos", e.target.value)} type="text" required />
@@ -3936,25 +3946,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 4</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input disabled={validateMesDisabledBancoOne("mesTres")} value={bancoOne.mesCuatro.fields.saldoPromedio} onChange={(e) => modifyBancoOne('mesCuatro', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input disabled={validateMesDisabledBancoOne("mesTres")} value={bancoOne.mesCuatro.fields.saldoInicial} onChange={(e) => modifyBancoOne('mesCuatro', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input disabled={validateMesDisabledBancoOne("mesTres")} value={bancoOne.mesCuatro.fields.totalRetiros} onChange={(e) => modifyBancoOne('mesCuatro', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input disabled={validateMesDisabledBancoOne("mesTres")} value={bancoOne.mesCuatro.fields.totalDepositos} onChange={(e) => modifyBancoOne('mesCuatro', "totalDepositos", e.target.value)} type="text" required />
@@ -3964,25 +3974,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 5</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input disabled={validateMesDisabledBancoOne("mesCuatro")} value={bancoOne.mesCinco.fields.saldoPromedio} onChange={(e) => modifyBancoOne('mesCinco', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input disabled={validateMesDisabledBancoOne("mesCuatro")} value={bancoOne.mesCinco.fields.saldoInicial} onChange={(e) => modifyBancoOne('mesCinco', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input disabled={validateMesDisabledBancoOne("mesCuatro")} value={bancoOne.mesCinco.fields.totalRetiros} onChange={(e) => modifyBancoOne('mesCinco', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input disabled={validateMesDisabledBancoOne("mesCuatro")} value={bancoOne.mesCinco.fields.totalDepositos} onChange={(e) => modifyBancoOne('mesCinco', "totalDepositos", e.target.value)} type="text" required />
@@ -3991,25 +4001,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 6</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input disabled={validateMesDisabledBancoOne("mesCinco")} value={bancoOne.mesSeis.fields.saldoPromedio} onChange={(e) => modifyBancoOne('mesSeis', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input disabled={validateMesDisabledBancoOne("mesCinco")} value={bancoOne.mesSeis.fields.saldoInicial} onChange={(e) => modifyBancoOne('mesSeis', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input disabled={validateMesDisabledBancoOne("mesCinco")} value={bancoOne.mesSeis.fields.totalRetiros} onChange={(e) => modifyBancoOne('mesSeis', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input disabled={validateMesDisabledBancoOne("mesCinco")} value={bancoOne.mesSeis.fields.totalDepositos} onChange={(e) => modifyBancoOne('mesSeis', "totalDepositos", e.target.value)} type="text" required />
@@ -4055,25 +4065,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 1</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input value={bancoTwo.mesUno.fields.saldoPromedio} onChange={(e) => modifyBancoTwo('mesUno', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input value={bancoTwo.mesUno.fields.saldoInicial} onChange={(e) => modifyBancoTwo('mesUno', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input value={bancoTwo.mesUno.fields.totalRetiros} onChange={(e) => modifyBancoTwo('mesUno', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input value={bancoTwo.mesUno.fields.totalDepositos} onChange={(e) => modifyBancoTwo('mesUno', "totalDepositos", e.target.value)} type="text" required />
@@ -4082,25 +4092,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 2</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesUno")} value={bancoTwo.mesDos.fields.saldoPromedio} onChange={(e) => modifyBancoTwo('mesDos', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesUno")} value={bancoTwo.mesDos.fields.saldoInicial} onChange={(e) => modifyBancoTwo('mesDos', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesUno")} value={bancoTwo.mesDos.fields.totalRetiros} onChange={(e) => modifyBancoTwo('mesDos', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesUno")} value={bancoTwo.mesDos.fields.totalDepositos} onChange={(e) => modifyBancoTwo('mesDos', "totalDepositos", e.target.value)} type="text" required />
@@ -4109,25 +4119,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 3</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesDos")} value={bancoTwo.mesTres.fields.saldoPromedio} onChange={(e) => modifyBancoTwo('mesTres', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesDos")} value={bancoTwo.mesTres.fields.saldoInicial} onChange={(e) => modifyBancoTwo('mesTres', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesDos")} value={bancoTwo.mesTres.fields.totalRetiros} onChange={(e) => modifyBancoTwo('mesTres', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesDos")} value={bancoTwo.mesTres.fields.totalDepositos} onChange={(e) => modifyBancoTwo('mesTres', "totalDepositos", e.target.value)} type="text" required />
@@ -4136,25 +4146,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 4</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesTres")} value={bancoTwo.mesCuatro.fields.saldoPromedio} onChange={(e) => modifyBancoTwo('mesCuatro', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesTres")} value={bancoTwo.mesCuatro.fields.saldoInicial} onChange={(e) => modifyBancoTwo('mesCuatro', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesTres")} value={bancoTwo.mesCuatro.fields.totalRetiros} onChange={(e) => modifyBancoTwo('mesCuatro', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesTres")} value={bancoTwo.mesCuatro.fields.totalDepositos} onChange={(e) => modifyBancoTwo('mesCuatro', "totalDepositos", e.target.value)} type="text" required />
@@ -4163,25 +4173,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 5</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesCuatro")} value={bancoTwo.mesCinco.fields.saldoPromedio} onChange={(e) => modifyBancoTwo('mesCinco', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesCuatro")} value={bancoTwo.mesCinco.fields.saldoInicial} onChange={(e) => modifyBancoTwo('mesCinco', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesCuatro")} value={bancoTwo.mesCinco.fields.totalRetiros} onChange={(e) => modifyBancoTwo('mesCinco', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesCuatro")} value={bancoTwo.mesCinco.fields.totalDepositos} onChange={(e) => modifyBancoTwo('mesCinco', "totalDepositos", e.target.value)} type="text" required />
@@ -4190,25 +4200,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 6</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesCinco")} value={bancoTwo.mesSeis.fields.saldoPromedio} onChange={(e) => modifyBancoTwo('mesSeis', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesCinco")} value={bancoTwo.mesSeis.fields.saldoInicial} onChange={(e) => modifyBancoTwo('mesSeis', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesCinco")} value={bancoTwo.mesSeis.fields.totalRetiros} onChange={(e) => modifyBancoTwo('mesSeis', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input disabled={validateMesDisabledBancoTwo("mesCinco")} value={bancoTwo.mesSeis.fields.totalDepositos} onChange={(e) => modifyBancoTwo('mesSeis', "totalDepositos", e.target.value)} type="text" required />
@@ -4254,25 +4264,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 1</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input value={bancoThree.mesUno.fields.saldoPromedio} onChange={(e) => modifyBancoThree('mesUno', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input value={bancoThree.mesUno.fields.saldoInicial} onChange={(e) => modifyBancoThree('mesUno', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input value={bancoThree.mesUno.fields.totalRetiros} onChange={(e) => modifyBancoThree('mesUno', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input value={bancoThree.mesUno.fields.totalDepositos} onChange={(e) => modifyBancoThree('mesUno', "totalDepositos", e.target.value)} type="text" required />
@@ -4281,25 +4291,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 2</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input disabled={validateMesDisabledBancoThree("mesUno")} value={bancoThree.mesDos.fields.saldoPromedio} onChange={(e) => modifyBancoThree('mesDos', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input disabled={validateMesDisabledBancoThree("mesUno")} value={bancoThree.mesDos.fields.saldoInicial} onChange={(e) => modifyBancoThree('mesDos', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input disabled={validateMesDisabledBancoThree("mesUno")} value={bancoThree.mesDos.fields.totalRetiros} onChange={(e) => modifyBancoThree('mesDos', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input disabled={validateMesDisabledBancoThree("mesUno")} value={bancoThree.mesDos.fields.totalDepositos} onChange={(e) => modifyBancoThree('mesDos', "totalDepositos", e.target.value)} type="text" required />
@@ -4308,25 +4318,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 3</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input disabled={validateMesDisabledBancoThree("mesDos")} value={bancoThree.mesTres.fields.saldoPromedio} onChange={(e) => modifyBancoThree('mesTres', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input disabled={validateMesDisabledBancoThree("mesDos")} value={bancoThree.mesTres.fields.saldoInicial} onChange={(e) => modifyBancoThree('mesTres', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input disabled={validateMesDisabledBancoThree("mesDos")} value={bancoThree.mesTres.fields.totalRetiros} onChange={(e) => modifyBancoThree('mesTres', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input disabled={validateMesDisabledBancoThree("mesDos")} value={bancoThree.mesTres.fields.totalDepositos} onChange={(e) => modifyBancoThree('mesTres', "totalDepositos", e.target.value)} type="text" required />
@@ -4335,25 +4345,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 4</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input disabled={validateMesDisabledBancoThree("mesTres")} value={bancoThree.mesCuatro.fields.saldoPromedio} onChange={(e) => modifyBancoThree('mesCuatro', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input disabled={validateMesDisabledBancoThree("mesTres")} value={bancoThree.mesCuatro.fields.saldoInicial} onChange={(e) => modifyBancoThree('mesCuatro', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input disabled={validateMesDisabledBancoThree("mesTres")} value={bancoThree.mesCuatro.fields.totalRetiros} onChange={(e) => modifyBancoThree('mesCuatro', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input disabled={validateMesDisabledBancoThree("mesTres")} value={bancoThree.mesCuatro.fields.totalDepositos} onChange={(e) => modifyBancoThree('mesCuatro', "totalDepositos", e.target.value)} type="text" required />
@@ -4362,25 +4372,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 5</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input disabled={validateMesDisabledBancoThree("mesCuatro")} value={bancoThree.mesCinco.fields.saldoPromedio} onChange={(e) => modifyBancoThree('mesCinco', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input disabled={validateMesDisabledBancoThree("mesCuatro")} value={bancoThree.mesCinco.fields.saldoInicial} onChange={(e) => modifyBancoThree('mesCinco', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input disabled={validateMesDisabledBancoThree("mesCuatro")} value={bancoThree.mesCinco.fields.totalRetiros} onChange={(e) => modifyBancoThree('mesCinco', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input disabled={validateMesDisabledBancoThree("mesCuatro")} value={bancoThree.mesCinco.fields.totalDepositos} onChange={(e) => modifyBancoThree('mesCinco', "totalDepositos", e.target.value)} type="text" required />
@@ -4389,25 +4399,25 @@ const Formulario = () => {
 																									<div className="col-12">
 																										<h4>Mes 6</h4>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo promedio de la cuenta de cheques </span >
 																											<input disabled={validateMesDisabledBancoThree("mesCinco")} value={bancoThree.mesSeis.fields.saldoPromedio} onChange={(e) => modifyBancoThree('mesSeis', "saldoPromedio", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Saldo Inicial </span >
 																											<input disabled={validateMesDisabledBancoThree("mesCinco")} value={bancoThree.mesSeis.fields.saldoInicial} onChange={(e) => modifyBancoThree('mesSeis', "saldoInicial", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de retiros </span >
 																											<input disabled={validateMesDisabledBancoThree("mesCinco")} value={bancoThree.mesSeis.fields.totalRetiros} onChange={(e) => modifyBancoThree('mesSeis', "totalRetiros", e.target.value)} type="text" required />
 																										</div>
 																									</div>
-																									<div className="col-6 col-sm-6 col-md-3 col-xl-3">
+																									<div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-3">
 																										<div style={{ display: 'flex', flexFlow: 'column', marginBottom: '24px' }}>
 																											<span style={{ textAlign: 'left' }}>Total de Depósitos </span >
 																											<input disabled={validateMesDisabledBancoThree("mesCinco")} value={bancoThree.mesSeis.fields.totalDepositos} onChange={(e) => modifyBancoThree('mesSeis', "totalDepositos", e.target.value)} type="text" required />
@@ -4444,6 +4454,7 @@ const Formulario = () => {
 													</div>
 												</div>
 												<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+													<button className="bgc-red" type="submit">Siguiente</button>
 												</div>
 											</animated.div>
 										)
@@ -4457,19 +4468,19 @@ const Formulario = () => {
 													<hr />
 													<div style={{ display: 'flex', justifyContent: 'center', gap: '24px' }}>
 														<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-															<div onClick={() => { setPrimerObligadoSolidario("PF"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+															<div onClick={() => { setPrimerObligadoSolidario("PF"); handleSeccion(true); handleNextOS(1) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 																<i style={{ fontSize: '32px' }} className="ri-user-fill"></i>
 															</div>
 															<span className="text-center">Persona fisica</span>
 														</div>
 														<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-															<div onClick={() => { setPrimerObligadoSolidario("PFAE"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+															<div onClick={() => { setPrimerObligadoSolidario("PFAE"); handleSeccion(true); handleNextOS(1) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 																<i style={{ fontSize: '32px' }} className="ri-user-2-fill"></i>
 															</div>
 															<span className="text-center">Persona fisica con actividad empresarial</span>
 														</div>
 														<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-															<div onClick={() => { setPrimerObligadoSolidario("PM"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+															<div onClick={() => { setPrimerObligadoSolidario("PM"); handleSeccion(true); handleNextOS(1) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 																<i style={{ fontSize: '32px' }} className="ri-building-4-line"></i>
 															</div>
 															<span className="text-center">Persona moral</span>
@@ -4834,6 +4845,7 @@ const Formulario = () => {
 															</div>
 														</div>
 														<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+															<button className="bgc-red" type="submit">Siguiente</button>
 														</div>
 													</>
 												}
@@ -5278,6 +5290,7 @@ const Formulario = () => {
 															</div>
 														</div>
 														<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+															<button className="bgc-red" type="submit">Siguiente</button>
 														</div>
 													</>
 												}
@@ -5591,6 +5604,7 @@ const Formulario = () => {
 															</div>
 														</div>
 														<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+															<button className="bgc-red" type="submit">Siguiente</button>
 														</div>
 													</>
 												}
@@ -5606,19 +5620,19 @@ const Formulario = () => {
 													<hr />
 													<div style={{ display: 'flex', justifyContent: 'center', gap: '24px' }}>
 														<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-															<div onClick={() => { setSegundoObligadoSolidario("PF"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+															<div onClick={() => { setSegundoObligadoSolidario("PF"); handleSeccion(true); handleNextOS(2) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 																<i style={{ fontSize: '32px' }} className="ri-user-fill"></i>
 															</div>
 															<span className="text-center">Persona física</span>
 														</div>
 														<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-															<div onClick={() => { setSegundoObligadoSolidario("PFAE"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+															<div onClick={() => { setSegundoObligadoSolidario("PFAE"); handleSeccion(true); handleNextOS(2) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 																<i style={{ fontSize: '32px' }} className="ri-user-2-fill"></i>
 															</div>
 															<span className="text-center">Persona física con actividad empresarial</span>
 														</div>
 														<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-															<div onClick={() => { setSegundoObligadoSolidario("PM"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+															<div onClick={() => { setSegundoObligadoSolidario("PM"); handleSeccion(true); handleNextOS(2) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 																<i style={{ fontSize: '32px' }} className="ri-building-4-line"></i>
 															</div>
 															<span className="text-center">Persona moral</span>
@@ -5983,6 +5997,7 @@ const Formulario = () => {
 															</div>
 														</div>
 														<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+															<button className="bgc-red" type="submit">Siguiente</button>
 														</div>
 													</>
 												}
@@ -6427,6 +6442,7 @@ const Formulario = () => {
 															</div>
 														</div>
 														<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+															<button className="bgc-red" type="submit">Siguiente</button>
 														</div>
 													</>
 												}
@@ -6740,6 +6756,7 @@ const Formulario = () => {
 															</div>
 														</div>
 														<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+															<button className="bgc-red" type="submit">Siguiente</button>
 														</div>
 													</>
 												}
@@ -6755,19 +6772,19 @@ const Formulario = () => {
 													<hr />
 													<div style={{ display: 'flex', justifyContent: 'center', gap: '24px' }}>
 														<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-															<div onClick={() => { setTercerObligadoSolidario("PF"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+															<div onClick={() => { setTercerObligadoSolidario("PF"); handleSeccion(true); handleNextOS(3) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 																<i style={{ fontSize: '32px' }} className="ri-user-fill"></i>
 															</div>
 															<span className="text-center">Persona física</span>
 														</div>
 														<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-															<div onClick={() => { setTercerObligadoSolidario("PFAE"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+															<div onClick={() => { setTercerObligadoSolidario("PFAE"); handleSeccion(true); handleNextOS(3) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 																<i style={{ fontSize: '32px' }} className="ri-user-2-fill"></i>
 															</div>
 															<span className="text-center">Persona física con actividad empresarial</span>
 														</div>
 														<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-															<div onClick={() => { setTercerObligadoSolidario("PM"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+															<div onClick={() => { setTercerObligadoSolidario("PM"); handleSeccion(true); handleNextOS(3) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 																<i style={{ fontSize: '32px' }} className="ri-building-4-line"></i>
 															</div>
 															<span className="text-center">Persona moral</span>
@@ -7132,6 +7149,7 @@ const Formulario = () => {
 															</div>
 														</div>
 														<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+															<button className="bgc-red" type="submit">Siguiente</button>
 														</div>
 													</>
 												}
@@ -7576,6 +7594,7 @@ const Formulario = () => {
 															</div>
 														</div>
 														<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+															<button className="bgc-red" type="submit">Siguiente</button>
 														</div>
 													</>
 												}
@@ -7889,6 +7908,7 @@ const Formulario = () => {
 															</div>
 														</div>
 														<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+															<button className="bgc-red" type="submit">Siguiente</button>
 														</div>
 													</>
 												}
@@ -7904,19 +7924,19 @@ const Formulario = () => {
 													<hr />
 													<div style={{ display: 'flex', justifyContent: 'center', gap: '24px' }}>
 														<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-															<div onClick={() => { setCuartoObligadoSolidario("PF"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+															<div onClick={() => { setCuartoObligadoSolidario("PF"); handleSeccion(true); handleNextOS(4) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 																<i style={{ fontSize: '32px' }} className="ri-user-fill"></i>
 															</div>
 															<span className="text-center">Persona física</span>
 														</div>
 														<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-															<div onClick={() => { setCuartoObligadoSolidario("PFAE"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+															<div onClick={() => { setCuartoObligadoSolidario("PFAE"); handleSeccion(true); handleNextOS(4) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 																<i style={{ fontSize: '32px' }} className="ri-user-2-fill"></i>
 															</div>
 															<span className="text-center">Persona física con actividad empresarial</span>
 														</div>
 														<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-															<div onClick={() => { setCuartoObligadoSolidario("PM"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+															<div onClick={() => { setCuartoObligadoSolidario("PM"); handleSeccion(true); handleNextOS(4) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 																<i style={{ fontSize: '32px' }} className="ri-building-4-line"></i>
 															</div>
 															<span className="text-center">Persona moral</span>
@@ -8281,6 +8301,7 @@ const Formulario = () => {
 															</div>
 														</div>
 														<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+															<button className="bgc-red" type="submit">Siguiente</button>
 														</div>
 													</>
 												}
@@ -8725,6 +8746,7 @@ const Formulario = () => {
 															</div>
 														</div>
 														<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+															<button className="bgc-red" type="submit">Siguiente</button>
 														</div>
 													</>
 												}
@@ -9038,6 +9060,7 @@ const Formulario = () => {
 															</div>
 														</div>
 														<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+															<button className="bgc-red" type="submit">Siguiente</button>
 														</div>
 													</>
 												}
@@ -9053,19 +9076,19 @@ const Formulario = () => {
 													<hr />
 													<div style={{ display: 'flex', justifyContent: 'center', gap: '24px' }}>
 														<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-															<div onClick={() => { setQuintoObligadoSolidario("PF"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+															<div onClick={() => { setQuintoObligadoSolidario("PF"); handleSeccion(true); handleNextOS(5) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 																<i style={{ fontSize: '32px' }} className="ri-user-fill"></i>
 															</div>
 															<span className="text-center">Persona física</span>
 														</div>
 														<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-															<div onClick={() => { setQuintoObligadoSolidario("PFAE"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+															<div onClick={() => { setQuintoObligadoSolidario("PFAE"); handleSeccion(true); handleNextOS(5) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 																<i style={{ fontSize: '32px' }} className="ri-user-2-fill"></i>
 															</div>
 															<span className="text-center">Persona física con actividad empresarial</span>
 														</div>
 														<div style={{ display: 'flex', flexFlow: 'column', alignItems: 'center' }}>
-															<div onClick={() => { setQuintoObligadoSolidario("PM"); handleSeccion(true); }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
+															<div onClick={() => { setQuintoObligadoSolidario("PM"); handleSeccion(true); handleNextOS(5) }} className='hover-red pointer cool-shadow bgc-white radius' style={{ padding: '8px', width: '80px', height: '80px', display: 'grid', placeContent: 'center' }}>
 																<i style={{ fontSize: '32px' }} className="ri-building-4-line"></i>
 															</div>
 															<span className="text-center">Persona moral</span>
@@ -9430,6 +9453,7 @@ const Formulario = () => {
 															</div>
 														</div>
 														<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+															<button className="bgc-red" type="submit">Siguiente</button>
 														</div>
 													</>
 												}
@@ -9874,6 +9898,7 @@ const Formulario = () => {
 															</div>
 														</div>
 														<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+															<button className="bgc-red" type="submit">Siguiente</button>
 														</div>
 													</>
 												}
@@ -10187,6 +10212,7 @@ const Formulario = () => {
 															</div>
 														</div>
 														<div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginBottom: '12px' }}>
+															<button className="bgc-red" type="submit">Siguiente</button>
 														</div>
 													</>
 												}
@@ -10455,7 +10481,7 @@ const Formulario = () => {
 			}
 								</>
 							}
-						{/* </form> */}
+						</form>
 					</div>
 				</div>
 			</div>
